@@ -29,11 +29,15 @@ if (isset($_GET['lang'])) {
     </form>
   </nav>
 
-  
+
   <h2><?= $content[0]['title'] ?></h2>
 
   <footer>
-
+    <div class="contact">
+      <p><?=$content[2]['phone']?></p>
+      <p><?=$content[2]['visitingAdress']?></p>
+      <p><?=$content[2]['email']?></p>
+    </div>
   </footer>
 </body>
 </html>
