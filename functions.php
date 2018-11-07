@@ -1,10 +1,10 @@
 <?php
 
-function changeLanguage(){
-if ($_GET['lang'] === 'sv') {
+function changeLanguage($a){
+if ($a === 'sv') {
    $content = $sweContent;
 }
-if ($_GET['lang'] === 'en') {
+if ($a === 'en') {
     $content = $engContent;
 }
 };

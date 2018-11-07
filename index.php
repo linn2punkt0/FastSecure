@@ -1,3 +1,11 @@
+<?php
+require __DIR__."/functions.php";
+
+if (isset($_GET['lang'])) {
+  $language = $_GET['lang'];
+  changeLanguage($language);
+};
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,9 +16,9 @@
 </head>
 <body>
   <nav>
-    <form action="/index.php" method="get">
-      <button type="button" name="lang" value="sv">SV</button>
-      <button type="button" name="lang" value="en">EN</button>
+    <form action="index.php" method="get">
+      <button type="submit" name="lang" value="sv">SV</button>
+      <button type="submit" name="lang" value="en">EN</button>
     </form>
   </nav>
 
