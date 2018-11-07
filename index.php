@@ -30,7 +30,7 @@ if (isset($_GET['lang'])) {
   </nav>
 
 
-  <h2><?= $content[0]['title'] ?></h2>
+  <h2><?= $content[0]['title'] ?> haha</h2>
 
   <footer>
     <div class="contact">
