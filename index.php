@@ -7,6 +7,12 @@
   <title>Document</title>
 </head>
 <body>
+  <nav>
+    <form action="/index.php" method="get">
+      <button type="button" name="lang" value="sv">SV</button>
+      <button type="button" name="lang" value="en">EN</button>
+    </form>
+  </nav>
 
 </body>
 </html>
