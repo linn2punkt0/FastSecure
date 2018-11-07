@@ -22,5 +22,9 @@ if (isset($_GET['lang'])) {
     </form>
   </nav>
 
+
+  <footer>
+
+  </footer>
 </body>
 </html>
