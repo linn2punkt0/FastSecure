@@ -2,17 +2,25 @@
 
 
 $svContent = [
-[  'info' => 'lalala',
-  'test' => 'hahaha'],
-[  'info' => 'lalala',
-  'test' => 'hahaha']
+[  
+  'title' => 'lalala',
+  'content' => 'hahaha'
+],
+[  
+  'title' => 'lalala',
+  'content' => 'hahaha'
+  ]
 ];
 
 
 
 $enContent = [
-  ['title' => 'lalala',
-  'content' => 'hahaha'],
-  ['info2' => 'lalala',
-  'test2' => 'hahaha']
+  [
+    'title' => 'lalala',
+    'content' => 'hahaha'
+],
+  [
+    'title' => 'lalala',
+    'content' => 'hahaha'
+  ]
 ];
