@@ -3,7 +3,7 @@
 
 $svContent = [
 [  
-  'title' => 'lalala',
+  'title' => 'Hej',
   'content' => 'hahaha'
 ],
 [  
@@ -16,7 +16,7 @@ $svContent = [
 
 $enContent = [
   [
-    'title' => 'lalala',
+    'title' => 'Hello',
     'content' => 'hahaha'
 ],
   [
