@@ -2,9 +2,9 @@
   <div class="social-media">
   </div>
     <div class="contact">
-      <p><?=$content[2]['phone']?></p>
-      <p><?=$content[2]['visitingAdress']?></p>
-      <p><?=$content[2]['email']?></p>
+      <p><?=$content['companyContact']['phone']?></p>
+      <p><?=$content['companyContact']['visitingAdress']?></p>
+      <p><?=$content['companyContact']['email']?></p>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
