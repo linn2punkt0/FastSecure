@@ -34,20 +34,20 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
               <?php endforeach; ?>
 
                 <div class="form-group">
-                    <label for="firstname">First Name</label>
+                    <label for="firstname"><?= $content['contactForm']['firstName']?></label>
                     <input type="text" name="firstname" id="text" class="form-control">
                 </div><!-- /form-group -->
 
                 <div class="form-group">
-                    <label for="firstname">Last Name</label>
+                    <label for="firstname"><?= $content['contactForm']['lastName']?></label>
                     <input type="text" name="lastname" id="text" class="form-control">
                 </div><!-- /form-group -->
 
                 <div class="form-group">
-                    <label for="email">Email</label>
+                    <label for="email"><?= $content['contactForm']['email']?></label>
                     <input type="email" name="email" id="email" class="form-control" placeholder="email@email.com">
                 </div><!-- /form-group -->
-                <button type="submit" class="btn btn-primary">Sign up</button>
+                <button type="submit" class="btn btn-primary"><?= $content['contactForm']['button']?></button>
             </form>
         </main><!-- /container -->
     </body>
