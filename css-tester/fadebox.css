@@ -1,0 +1,33 @@
+body {
+  scroll-snap-type:y mandatory;
+    margin: 0;
+    padding 0;
+}
+
+.scrollsnap {
+  scroll-snap-align: start;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.fade-down{
+  height: 100vh;
+  flex: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
