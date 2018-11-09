@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "AktivGrotesk-Bold";
+  scr: url(Font/AktivGrotesk-Bold.otf);
+}
+
+@font-face {
+  font-family: "AktivGrotesk-Light";
+  scr: url(Font/AktivGrotesk-Light.otf);
+}
+
+@font-face {
+  font-family: "AktivGrotesk-Medium";
+  scr: url(Font/AktivGrotesk-Medium.otf);
+}
+
+@font-face {
+  font-family: "AktivGrotesk-Regular";
+  scr: url(Font/AktivGrotesk-Regular.otf);
+}
