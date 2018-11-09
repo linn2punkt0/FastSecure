@@ -9,12 +9,10 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
   if ($firstName === '') {
     array_push($errors, 'Please provide your name');
   }
-  if ($lastName === '') {
+  if($lastName === '') {
     array_push($errors, 'Please provide your lastname');
   }
 };
-
-
 
 ?>
 <!DOCTYPE html>
