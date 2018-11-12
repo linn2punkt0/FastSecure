@@ -1,7 +1,7 @@
 body {
   scroll-snap-type:y mandatory;
     margin: 0;
-    padding 0;
+    page-break-after: ;dding 0;
 }
 
 .scrollsnap {
