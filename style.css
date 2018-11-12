@@ -1,7 +1,7 @@
+/* ANVÄND CLASS FÖR ATT OVERRIDE:A BOOTSTRAP!!! */
 
 #time {
   font-size: 20px;
-
 }
 
 .content {
@@ -11,8 +11,5 @@
 
 body {
   background-color: hotpink;
-}
 .test {
   font-family: "AktivGrotesk-Bold";
-x
-}
