@@ -8,3 +8,10 @@
   height: 400px;
   width: 600px;
 }
+
+body {
+  background-color: hotpink;
+}
+.test {
+  font-family: "AktivGrotesk-Bold";
+}
