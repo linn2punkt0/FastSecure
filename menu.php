@@ -1,19 +1,17 @@
-<?php
-require __DIR__."/header.php";
-?>
+<!-- Nu skickas man till startsidan med valt språk, måste ändra så språkinställningen sparas pch även gäller menyn. -->
 
 <nav>
     <img src="" alt="logo">
-    <img src="" alt="exit">
+    <a href="index.php"><img src="" alt="exit"></a>
 </nav>
 <div>
-    <a href="">Home</a>
-    <a href="">Performance</a>
-    <a href="">Exclusivity</a>
-    <a href="">Merchandise</a>
-    <a href="">Contact</a>
+    <a href=""><?=$content['home']['title']?></a>
+    <a href=""><?=$content['performance']['title']?></a>
+    <a href=""><?=$content['exclusivity']['title']?></a>
+    <a href=""><?=$content['merchandise']['title']?></a>
+    <a href=""><?=$content['companyContact']['contact']?></a>
 </div>
 <form action="index.php" method="get">
-    <button type="submit" name="lang" value="sv">SV</button>
-    <button type="submit" name="lang" value="en">EN</button>
+    <button type="submit" name="lang" value="sv">SWEDISH</button>
+    <button type="submit" name="lang" value="en">ENGLISH</button>
 </form>
