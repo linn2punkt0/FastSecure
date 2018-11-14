@@ -10,8 +10,8 @@ var x = setInterval(() =>{
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var secounds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("time").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-}, 1000 );
+  document.getElementById('time').innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+}, 1000);
 
 
 
