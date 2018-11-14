@@ -1,15 +1,9 @@
 /* ANVÄND CLASS FÖR ATT OVERRIDE:A BOOTSTRAP!!! */
 
-#time {
-  font-size: 20px;
+.body {
+  background-color: black;
+  color: white;
 }
-
-.content {
-  height: 400px;
-  width: 600px;
-}
-
-body {
-  background-color: hotpink;
 .test {
   font-family: "AktivGrotesk-Bold";
+}

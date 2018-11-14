@@ -19,16 +19,20 @@ if (isset($_GET['lang'])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="font.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="style.css">
   <title>FastSecurity</title>
 </head>
-<body>
+<body class="body">
   <nav>
 
-    <form action="index.php" method="get">
+    <!-- Ligger i burgaren.
+      <form action="index.php" method="get">
       <button type="submit" name="lang" value="sv">SV</button>
       <button type="submit" name="lang" value="en">EN</button>
-    </form>
+    </form> -->
+
+    <img src="" alt="Logo">
+    <img src="" alt="burger">
   </nav>
