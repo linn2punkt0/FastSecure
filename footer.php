@@ -17,6 +17,7 @@
       margin-left: 10px;
       margin-bottom: 20px;
       letter-spacing: 1px;
+      font-size: 38px;
     }
     p{
       font-size: 16px;
@@ -29,7 +30,8 @@
     }
     .to-top{
       text-align: center;
-      padding-top: 30vh;
+      padding-top: 25vh;
+      font-size: 14px;
     }
 
 
