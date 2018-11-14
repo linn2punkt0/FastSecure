@@ -12,3 +12,7 @@ var x = setInterval(() =>{
 
   document.getElementById("time").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 }, 1000 );
+
+
+
+// https://www.youtube.com/watch?v=lemk-2hffFM
