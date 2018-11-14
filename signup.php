@@ -13,17 +13,7 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
     array_push($errors, 'Please provide your lastname');
   }
 };
-
 ?>
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Sign up</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    </head>
-    <body>
         <main class="container">
             <form class="col-lg-6 mt-3" action="signup.php" method="post">
 
@@ -50,5 +40,3 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
                 <button type="submit" class="btn btn-primary"><?= $content['contactForm']['button']?></button>
             </form>
         </main><!-- /container -->
-    </body>
-</html>

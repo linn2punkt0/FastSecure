@@ -3,9 +3,9 @@ require __DIR__."/header.php";
 ?>
 
 
-<div class="button2">
-  Headline
-</div>
+
+<h2 class="test">Detta är test</h2>
+
 
 <?php
 require __DIR__."/signup.php";
