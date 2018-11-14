@@ -1,6 +1,7 @@
 /* ANVÄND CLASS FÖR ATT OVERRIDE:A BOOTSTRAP!!! */
-
-
+.body {
+  background-color: black;
+  color: white;
 }
 .test {
   font-family: "AktivGrotesk-Bold";

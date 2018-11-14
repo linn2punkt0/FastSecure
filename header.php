@@ -34,5 +34,5 @@ if (isset($_GET['lang'])) {
     </form> -->
 
     <img src="" alt="Logo">
-    <img src="" alt="burger">
+    <img href="menu.php" src="" alt="burger">
   </nav>
