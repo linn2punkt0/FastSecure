@@ -2,6 +2,7 @@
 require __DIR__."/header.php";
 
 
+
 //require __DIR__."/signup.php";
 
 // Denna visas endast när man trycker på hamburgermenyn. Då visas inget annat, utan menyn blir helskärm.

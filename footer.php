@@ -46,7 +46,7 @@
       <p class="contactinfo"><?=$content['companyContact']['phone']?></p>
       <p class="visit"><?=$content['companyContact']['visitingAdress']?></p>
 
-      <p class="to-top"> BACK TO THE TOP /\</p>
+      <p class="to-top"> BACK TO THE TOP ⇧</p>
       <!-- <p class="visit"><?=$content['companyContact']['backToTop']?></p> -->
     </div>
   </footer>
