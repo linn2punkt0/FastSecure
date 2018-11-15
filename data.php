@@ -2,14 +2,14 @@
 
 // Fix swedish translation.
 $svContent = [
-  'headerContent' => 
+  'headerContent' =>
   [
     'title' => 'Be special - på svenska',
   ],
 
   'secondContent' =>
   [
-    'title' => 'Only cwith FS1.0',
+    'title' => 'Only with FS1.0',
   ],
 
   'FS1.0'=>
@@ -71,7 +71,7 @@ $svContent = [
 
 
 $enContent = [
-  'headerContent' => 
+  'headerContent' =>
   [
     'title' => 'Be special',
   ],
@@ -136,4 +136,3 @@ $enContent = [
     'email' => 'E-mail: saabtechnologiesuk@saabgroup.com'
   ],
 ];
-
