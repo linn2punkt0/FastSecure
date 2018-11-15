@@ -1,4 +1,11 @@
-<!-- Nu skickas man till startsidan med valt språk, måste ändra så språkinställningen sparas pch även gäller menyn. -->
+<?php
+require __DIR__."/header.php";
+?>
+<!-- Nu skickas man till startsidan med valt språk, 
+måste ändra så språkinställningen sparas pch även gäller menyn.
+
+Ändra $content till $_SESSION??? 
+Även $_GET till $_SESSION???-->
 
 <nav>
     <img src="" alt="logo">

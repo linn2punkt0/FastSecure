@@ -1,5 +1,6 @@
 <?php
 require __DIR__."/header.php";
+require __DIR__."/navbar.php";
 ?>
 
   <h2><?= $content['headerContent']['title'] ?></h2>
