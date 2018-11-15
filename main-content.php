@@ -1,8 +1,28 @@
 <h2><?= $_SESSION['content']['headerContent']['title'] ?></h2>
 
 <div class="content">
-  <p id="time">   </p>
-</div>
-  <script type="text/javascript" src="counter.js"></script>
+  <div class="first-page"></div>
+  <div class="scroll-down">Scroll down</div>
 
-<h2 class="test">Detta är test</h2>
+  <div class="second-page">
+    <div class="headline">
+      <?=$content['headerContent']['title']?>
+    </div>
+  </div>
+
+  <div class="third-page">
+    <div class="headline">
+      <?=$content['secondContent']['title']?>
+    </div>
+  </div>
+  <div class="fourth-page">
+    <div class="headline">
+      <?=$content['FS1.0']['title']?>
+    </div>
+    <div class="content-box">
+      <?=$content['FS1.0']['content']?>
+    </div>
+    <div class="newsletter-button">
+      <?=$content['FS1.0']['button']?>
+    </div>
+</div>
