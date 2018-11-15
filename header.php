@@ -12,19 +12,6 @@ if (isset($_GET['lang'])) {
   }
 };
 
-// setcookie('lang');
-// if (isset($_GET['lang'])) {
-//  setcookie('lang',$_GET['lang'])
-//     if ($_COOKIE['lang'] === 'sv') {
-//       $content = $svContent;
-//     }
-//     else {
-//       $content = $enContent;
-//     }
-// };
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
