@@ -1,4 +1,4 @@
-<h2><?= $content['headerContent']['title'] ?></h2>
+<h2><?= $_SESSION['content']['headerContent']['title'] ?></h2>
 
 <div class="content">
   <p id="time">   </p>

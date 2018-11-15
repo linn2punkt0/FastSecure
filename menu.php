@@ -12,11 +12,11 @@ måste ändra så språkinställningen sparas pch även gäller menyn.
     <a href="index.php"><img src="" alt="exit"></a>
 </nav>
 <div>
-    <a href=""><?=$content['home']['title']?></a>
-    <a href=""><?=$content['performance']['title']?></a>
-    <a href=""><?=$content['exclusivity']['title']?></a>
-    <a href=""><?=$content['merchandise']['title']?></a>
-    <a href=""><?=$content['companyContact']['contact']?></a>
+    <a href=""><?=$_SESSION['content']['home']['title']?></a>
+    <a href=""><?=$_SESSION['content']['performance']['title']?></a>
+    <a href=""><?=$_SESSION['content']['exclusivity']['title']?></a>
+    <a href=""><?=$_SESSION['content']['merchandise']['title']?></a>
+    <a href=""><?=$_SESSION['content']['companyContact']['contact']?></a>
 </div>
 <form action="menu.php" method="get">
     <button type="submit" name="lang" value="sv">SWEDISH</button>
