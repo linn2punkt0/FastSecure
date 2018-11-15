@@ -1,10 +1,53 @@
 <footer>
+
+
+
+  <style>
+    .contact{
+      height: 100vh;
+      width: 100vw;
+    }
+    .contactinfo{
+      margin-left: 10px;
+      margin-bottom: 0px;
+    }
+    h2.contactinfoh2{
+      padding-top: 140px;
+      font-weight: bold;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+      font-size: 38px;
+    }
+    p{
+      font-size: 16px;
+      letter-spacing: 1px;
+
+    }
+    .visit {
+      margin-top: 36px;
+      margin-left: 10px;
+    }
+    .to-top{
+      text-align: center;
+      padding-top: 25vh;
+      font-size: 14px;
+    }
+
+
+
+  </style>
   <div class="social-media">
   </div>
     <div class="contact">
-      <p><?=$content['companyContact']['phone']?></p>
-      <p><?=$content['companyContact']['visitingAdress']?></p>
-      <p><?=$content['companyContact']['email']?></p>
+      <h2 class="contactinfoh2"> Contact info </h2>
+      <!-- <h2><?=$content['companyContact']['title']?></h2> -->
+      <p class="contactinfo"><?=$content['companyContact']['email']?></p>
+      <p class="contactinfo"><?=$content['companyContact']['phone']?></p>
+      <p class="visit"><?=$content['companyContact']['visitingAdress']?></p>
+
+      <p class="to-top"> BACK TO THE TOP /\</p>
+      <!-- <p class="visit"><?=$content['companyContact']['backToTop']?></p> -->
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
