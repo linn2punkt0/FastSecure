@@ -7,7 +7,5 @@
     </form> -->
 
     <img src="" alt="Logo">
-    <form action="index.php" method="post">
-    <button type="submit" name="page" value="menu"><img src="" alt="burger"></button>
-    </form>
+    <a href="menu.php"><img src="" alt="burger"></a>
   </nav>
