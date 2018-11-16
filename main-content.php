@@ -2,7 +2,6 @@
 
 require __DIR__."/header.php";
  ?>
-
 <div class="content">
     <div class="first-page">
     <!-- implement 'scroll down' button below-->
@@ -29,6 +28,7 @@ require __DIR__."/header.php";
             <div class="content-box">
                 <?=$content['FS1.0']['content']?>
             </div>
+            <!-- implement 'scroll down' button below-->
             <div class="newsletter-button">
                 <?=$content['FS1.0']['button']?>
             </div>
