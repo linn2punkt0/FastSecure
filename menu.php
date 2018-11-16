@@ -1,7 +1,7 @@
 
 <nav>
     <img src="" alt="logo">
-    <form action="index.php" method="post">
+    <form action="index.php" method="get">
     <button type="submit" name="page" value="index"><img src="" alt="exit"></button>
     </form>
 </nav>
@@ -12,7 +12,7 @@
     <a href=""><?=trans('merchandise','title')?></a>
     <a href=""><?=trans('companyContact','contact')?></a>
 </div>
-<form action="index.php" method="post">
+<form action="index.php" method="get">
     <button type="submit" name="lang" value="sv">SWEDISH</button>
     <button type="submit" name="lang" value="en">ENGLISH</button>
 </form>

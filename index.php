@@ -3,30 +3,45 @@
 require __DIR__."/header.php";
 require __DIR__."/functions.php";
 
-if (isset($_POST['lang'])) {
-    $lang = $_POST['lang'];
-  setcookie('lang', $lang);
+if (!isset($_COOKIE['lang']) || (!isset($_GET['lang']))) {
+    $_GET['lang'] = 'en';
+    header("Location: index.php?lang=en");
+    exit();
+}
+elseif (isset($_GET['lang'])) {
+    $lang = $_GET['lang'];
+    setcookie('lang', $lang);
+}
+  else {
+    $lang = $_COOKIE['lang'];
+  }
 //   header("Location: index.php");
-};
 
-if (isset($_POST['page'])) {
-    if ($_POST['page'] === 'menu') {
+if (isset($_GET['page'])) {
+    $page = $_GET['page'] ?? 'index';
+    setcookie('page', $page);
+
+    if ($page === 'menu') {
         require __DIR__."/menu.php";
+
     }
-    if ($_POST['page'] === 'index') {
+    if ($page === 'index') {
         require __DIR__."/navbar.php";
         require __DIR__."/main-content.php";
         require __DIR__."/signup.php";
         
         require __DIR__."/footer.php";
+
     }
   }
   else {
+    setcookie('page', 'index');
     require __DIR__."/navbar.php";
     require __DIR__."/main-content.php";
     require __DIR__."/signup.php";
     
     require __DIR__."/footer.php";
+    
   }
 
 
