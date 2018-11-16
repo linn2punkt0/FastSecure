@@ -8,6 +8,5 @@ function trans($key, $key2) {
 
   $translations = require __DIR__.'/lang/'.$locale.'.php';
   
-
-  return $Content[$key1, $key2];
+  return $Content[$key1][$key2];
 };
