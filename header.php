@@ -1,20 +1,6 @@
 <?php
 require __DIR__."/data.php";
 
-
-
-
-
-
-if (isset($_GET['lang'])) {
-  if($_GET['lang'] === 'sv'){
-    $_SESSION['content'] = $svContent;
-  }
-  else{
-    $_SESSION['content'] = $enContent;
-  }
-};
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
