@@ -15,6 +15,7 @@ elseif (isset($_GET['lang'])) {
   else {
     $lang = $_COOKIE['lang'];
   }
+
 //   header("Location: index.php");
 
 if (isset($_GET['page'])) {
@@ -29,7 +30,7 @@ if (isset($_GET['page'])) {
         require __DIR__."/navbar.php";
         require __DIR__."/main-content.php";
         require __DIR__."/signup.php";
-        
+
         require __DIR__."/footer.php";
 
     }
@@ -39,7 +40,7 @@ if (isset($_GET['page'])) {
     require __DIR__."/navbar.php";
     require __DIR__."/main-content.php";
     require __DIR__."/signup.php";
-    
+
     require __DIR__."/footer.php";
     
   }
