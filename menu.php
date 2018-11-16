@@ -1,11 +1,3 @@
-<?php
-require __DIR__."/header.php";
-?>
-<!-- Nu skickas man till startsidan med valt språk, 
-måste ändra så språkinställningen sparas pch även gäller menyn.
-
-Ändra $content till $_SESSION??? 
-Även $_GET till $_SESSION???-->
 
 <nav>
     <img src="" alt="logo">
@@ -20,7 +12,7 @@ måste ändra så språkinställningen sparas pch även gäller menyn.
     <a href=""><?=trans('merchandise','title')?></a>
     <a href=""><?=trans('companyContact','contact')?></a>
 </div>
-<form action="menu.php" method="get">
+<form action="index.php" method="post">
     <button type="submit" name="lang" value="sv">SWEDISH</button>
     <button type="submit" name="lang" value="en">ENGLISH</button>
 </form>
