@@ -58,7 +58,7 @@ require __DIR__."/header.php";
                 <?=$_SESSION['content']['exclusivity']['content']?>
             </div>
             <div class="read-more-button">
-                <?=$_SESSION['content']'exclusivity']['button']?> >
+                <?=$_SESSION['content']['exclusivity']['button']?> >
             </div>
         </div>
         <div class="content-img-exclusivity"></div>
