@@ -42,14 +42,14 @@
   <div class="social-media">
   </div>
     <div class="contact">
-      <h2 class="contactinfoh2"><?= $_SESSION['content']['companyContact']['contact']?></h2>
+      <h2 class="contactinfoh2"><?= trans(['companyContact']['contact'])?></h2>
 
-      <p class="contactinfo"><?= $_SESSION['content']['companyContact']['email']?></p>
-      <p class="contactinfo"><?= $_SESSION['content']['companyContact']['phone']?></p>
-      <p class="visit"><?= $_SESSION['content']['companyContact']['visitingAdress']?></p>
+      <p class="contactinfo"><?= trans(['companyContact']['email'])?></p>
+      <p class="contactinfo"><?= trans(['companyContact']['phone'])?></p>
+      <p class="visit"><?= trans(['companyContact']['visitingAdress'])?></p>
 
       <a href="#top"><p class="to-top"> BACK TO THE TOP ⇧</p></a>
-      <!-- <p class="visit"><?= $_SESSION['companyContact']['backToTop']?></p> -->
+      <!-- <p class="visit"><?= trans(['companyContact']['backToTop'])?></p> -->
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

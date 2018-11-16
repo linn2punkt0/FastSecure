@@ -1,7 +1,11 @@
 <?php
 require __DIR__."/data.php";
 
-session_start();
+
+
+
+
+
 if (isset($_GET['lang'])) {
   if($_GET['lang'] === 'sv'){
     $_SESSION['content'] = $svContent;
@@ -24,4 +28,3 @@ if (isset($_GET['lang'])) {
   <title>FastSecurity</title>
 </head>
 <body class="body">
-  
