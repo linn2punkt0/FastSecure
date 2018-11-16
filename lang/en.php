@@ -1,6 +1,6 @@
 <?php
 
-$enContent = [
+$Content = [
   'headerContent' =>
   [
     'title' => 'Be special',

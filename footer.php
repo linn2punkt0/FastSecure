@@ -42,11 +42,11 @@
   <div class="social-media">
   </div>
     <div class="contact">
-      <h2 class="contactinfoh2"><?= trans(['companyContact']['contact'])?></h2>
+      <h2 class="contactinfoh2"> <?= trans('companyContact', 'contact'); ?> </h2>
 
-      <p class="contactinfo"><?= trans(['companyContact']['email'])?></p>
-      <p class="contactinfo"><?= trans(['companyContact']['phone'])?></p>
-      <p class="visit"><?= trans(['companyContact']['visitingAdress'])?></p>
+      <p class="contactinfo"><?= trans('companyContact', 'email')?></p>
+      <p class="contactinfo"><?= trans('companyContact', 'phone')?></p>
+      <p class="visit"><?= trans('companyContact', 'visitingAdress')?></p>
 
       <a href="#top"><p class="to-top"> BACK TO THE TOP ⇧</p></a>
       <!-- <p class="visit"><?= trans(['companyContact']['backToTop'])?></p> -->
