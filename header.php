@@ -2,13 +2,13 @@
 require __DIR__."/data.php";
 require __DIR__."/functions.php";
 
-$content = $enContent;
+session_start();
 if (isset($_GET['lang'])) {
   if($_GET['lang'] === 'sv'){
-    $content = $svContent;
+    $_SESSION['content'] = $svContent;
   }
-  if($_GET['lang'] === 'en'){
-    $content = $enContent;
+  else{
+    $_SESSION['content'] = $enContent;
   }
 };
 
