@@ -6,6 +6,7 @@ require __DIR__."/functions.php";
 if (isset($_POST['lang'])) {
     $lang = $_POST['lang'];
   setcookie('lang', $lang);
+  header("Refresh:0");
 //   header("Location: index.php");
 };
 
@@ -17,7 +18,7 @@ if (isset($_POST['page'])) {
         require __DIR__."/navbar.php";
         require __DIR__."/main-content.php";
         require __DIR__."/signup.php";
-        
+
         require __DIR__."/footer.php";
     }
   }
@@ -25,7 +26,7 @@ if (isset($_POST['page'])) {
     require __DIR__."/navbar.php";
     require __DIR__."/main-content.php";
     require __DIR__."/signup.php";
-    
+
     require __DIR__."/footer.php";
   }
 
