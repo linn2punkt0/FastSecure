@@ -5,8 +5,11 @@ function trans($key1, $key2) {
   if(isset($_GET['lang'])){
     $lang = $_GET['lang'];
   }
-  else{
+  elseif(isset($_COOKIE['lang'])){
     $lang = $_COOKIE['lang'];
+  }
+  else {
+    $lang = 'en';
   }
   $locale = $lang ?? 'en';
 
