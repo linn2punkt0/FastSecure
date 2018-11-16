@@ -10,27 +10,27 @@ require __DIR__."/header.php";
 
     <div class="second-page">
         <div class="headline">
-          <?=$content['headerContent']['title']?>
+          <?=trans('headerContent', 'title')?>
         </div>
     </div>
 
     <div class="third-page">
         <div class="headline">
-            <?=$content['secondContent']['title']?>
+            <?=trans('secondContent', 'title')?>
         </div>
     </div>
 
     <div class="fourth-page">
         <div class="content-wrapper-fs">
             <div class="headline-text">
-                <?=$content['FS1.0']['title']?>
+                <?=trans('FS1.0','title')?>
             </div>
             <div class="content-box">
-                <?=$content['FS1.0']['content']?>
+                <?=trans('FS1.0','content')?>
             </div>
             <!-- implement 'scroll down' button below-->
             <div class="newsletter-button">
-                <?=$content['FS1.0']['button']?>
+                <?=trans('FS1.0','button')?>
             </div>
         </div>
         <div class="content-img"></div>
@@ -38,13 +38,13 @@ require __DIR__."/header.php";
     <div class="fifth-page">
         <div class="content-wrapper">
             <div class="headline-text">
-                <?=$content['performance']['title']?>
+                <?=trans('performance','title')?>
             </div>
             <div class="content-box">
-                <?=$content['performance']['content']?>
+                <?=trans('performance','content')?>
             </div>
             <div class="read-more-button">
-                <?=$content['performance']['button']?> >
+                <?=trans('performance','button')?> >
             </div>
         </div>
         <div class="content-img-performance"></div>
@@ -52,13 +52,13 @@ require __DIR__."/header.php";
     <div class="sixth-page">
         <div class="content-wrapper">
             <div class="headline-text">
-                <?=$content['exclusivity']['title']?>
+                <?=trans('exclusivity','title')?>
             </div>
             <div class="content-box">
-                <?=$content['exclusivity']['content']?>
+                <?=trans('exclusivity','content')?>
             </div>
             <div class="read-more-button">
-                <?=$content['exclusivity']['button']?> >
+                <?=trans('exclusivity','button')?> >
             </div>
         </div>
         <div class="content-img-exclusivity"></div>
@@ -66,13 +66,13 @@ require __DIR__."/header.php";
   <div class="seventh-page">
     <div class="content-wrapper">
       <div class="headline-text">
-        <?=$content['merchandise']['title']?>
+        <?=trans('merchandise','title')?>
       </div>
       <div class="content-box">
-        <?=$content['merchandise']['content']?>
+        <?=trans('merchandise','content')?>
       </div>
       <div class="read-more-button">
-        <?=$content['merchandise']['button']?> >
+        <?=trans('merchandise','button')?> >
       </div>
     </div>
     <div class="content-img-merchandise"></div>
@@ -80,18 +80,18 @@ require __DIR__."/header.php";
   <div class="eight-page">
     <div class="content-wrapper-newsletter">
       <div class="headline-text">
-        <?=$content['newsletter']['title']?>
+        <?=trans('newsletter','title')?>
       </div>
       <div class="content-box">
-        <?=$content['newsletter']['content']?>
+        <?=trans('newsletter','content')?>
       </div>
       <!-- add input field below-->
         <div class="subscribe-email">
-          <?=$content['contactForm']['email']?>
+          <?=trans('contactForm','email')?>
         </div>
             <!-- implement 'subscribe' button below-->
             <div class="subscribe-button">
-              <?=$content['contactForm']['button']?>
+              <?=trans('contactForm','button')?>
             </div>
     </div>
   </div>
