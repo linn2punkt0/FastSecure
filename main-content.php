@@ -5,7 +5,9 @@ require __DIR__."/header.php";
 <div class="content">
     <div class="first-page">
     <!-- implement 'scroll down' button below-->
-        <div class="scroll-down">Scroll down</div>
+        <div class="scroll-down">
+            <?=trans('headerContent','scroll')?>
+        </div>
     </div>
 
     <div class="second-page">

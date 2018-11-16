@@ -9,7 +9,7 @@ if (isset($_GET['lang'])){
   setcookie('lang', $lang);
 }
 elseif (!isset($_GET['lang'])){
-  header("Location: index2.php?lang=en");
+  header("Location: index.php?lang=en");
 }
 
 
@@ -22,7 +22,7 @@ if (isset($_GET['page'])) {
         require __DIR__."/menu.php";
 
     }
-    if ($page === 'index') {
+    elseif ($page === 'index') {
         require __DIR__."/navbar.php";
         require __DIR__."/main-content.php";
         require __DIR__."/signup.php";

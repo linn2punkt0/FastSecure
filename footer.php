@@ -49,7 +49,7 @@
       <p class="visit"><?= trans('companyContact', 'visitingAdress')?></p>
 
 
-      <a href="#top"><p class="to-top"> BACK TO THE TOP ⇧</p></a>
+      <a href="#top"><p class="to-top"> <?=trans('companyContact','back')?> ⇧</p></a>
       <!-- <p class="visit"><?= trans(['companyContact']['backToTop'])?></p> -->
     </div>
   </footer>
