@@ -1,10 +1,27 @@
 <?php
 
-session_start();
 require __DIR__."/header.php";
 require __DIR__."/functions.php";
 
-
+if (isset($_POST['page'])) {
+    if ($_POST['page'] === 'menu') {
+        require __DIR__."/menu.php";
+    }
+    else {
+        require __DIR__."/navbar.php";
+        require __DIR__."/main-content.php";
+        require __DIR__."/signup.php";
+        
+        require __DIR__."/footer.php";
+    }
+  }
+  else {
+    require __DIR__."/navbar.php";
+    require __DIR__."/main-content.php";
+    require __DIR__."/signup.php";
+    
+    require __DIR__."/footer.php";
+  }
 
 
 
@@ -13,10 +30,10 @@ require __DIR__."/functions.php";
 
 // Skapa if-statement för detta.
 
-// Dessa requiras som standard och kommer tillbaka när man trycker på exit i hamburgaren.
-require __DIR__."/navbar.php";
-require __DIR__."/main-content.php";
-require __DIR__."/signup.php";
+// Dessa requiras som standard och kommer tillbaka när man trycker på exit i menyn.
+// require __DIR__."/navbar.php";
+// require __DIR__."/main-content.php";
+// require __DIR__."/signup.php";
 
-require __DIR__."/footer.php";
-?>
+// require __DIR__."/footer.php";
+// ?>

@@ -9,7 +9,9 @@ måste ändra så språkinställningen sparas pch även gäller menyn.
 
 <nav>
     <img src="" alt="logo">
-    <a href="index.php"><img src="" alt="exit"></a>
+    <form action="index.php" method="post">
+    <button type="submit" name="page" value="index"><img src="" alt="exit"></button>
+    </form>
 </nav>
 <div>
     <a href=""><?=trans('home','title')?></a>
