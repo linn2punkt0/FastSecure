@@ -1,6 +1,5 @@
 <?php
 require __DIR__."/data.php";
-require __DIR__."/functions.php";
 
 session_start();
 if (isset($_GET['lang'])) {

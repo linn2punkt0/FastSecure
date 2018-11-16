@@ -43,6 +43,7 @@
   </div>
     <div class="contact">
       <h2 class="contactinfoh2"><?= $_SESSION['content']['companyContact']['contact']?></h2>
+
       <p class="contactinfo"><?= $_SESSION['content']['companyContact']['email']?></p>
       <p class="contactinfo"><?= $_SESSION['content']['companyContact']['phone']?></p>
       <p class="visit"><?= $_SESSION['content']['companyContact']['visitingAdress']?></p>
