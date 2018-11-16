@@ -41,6 +41,10 @@
   </div>
     <div class="contact">
       <h2 class="contactinfoh2"> Contact info </h2>
+      <!-- <h2><?=$content['companyContact']['title']?></h2> -->
+      <p class="contactinfo"><?=$content['companyContact']['email']?></p>
+      <p class="contactinfo"><?=$content['companyContact']['phone']?></p>
+      <p class="visit"><?=$content['companyContact']['visitingAdress']?></p>
       <!-- <h2><?= $_SESSION['content']['companyContact']['contact']?></h2> -->
       <p class="contactinfo"><?= $_SESSION['content']['companyContact']['email']?></p>
       <p class="contactinfo"><?= $_SESSION['content']['companyContact']['phone']?></p>

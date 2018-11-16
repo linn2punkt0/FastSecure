@@ -18,6 +18,7 @@ $svContent = [
     'title' => 'FS1.0',
     'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well, as one of the world’s most innovative companies. And now we are proud to present our car for the future: FastSecurity, FS.',
     'button' => 'Anmäl dig till vårt nyhetsbrev',
+
   ],
 
   'performance'=>
@@ -81,14 +82,14 @@ $enContent = [
 
   'secondContent' =>
   [
-    'title' => 'Only cwith FS1.0',
+    'title' => 'Only with FS1.0',
   ],
 
   'FS1.0'=>
   [
     'title' => 'FS1.0',
     'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well, as one of the world’s most innovative companies. And now we are proud to present our car for the future: FastSecurity, FS.',
-    'button' => 'Sign up to the newsletter',
+    'button' => 'SIGN UP TO NEWSLETTER',
   ],
 
   'performance'=>
@@ -127,8 +128,8 @@ $enContent = [
   [
     'firstName' => 'First Name',
     'lastName' => 'Last Name',
-    'email' => 'Email',
-    'button' => 'Subscribe'
+    'email' => 'EMAIL ADRESS',
+    'button' => 'SUBSCRIBE'
   ],
 
   'companyContact' =>
