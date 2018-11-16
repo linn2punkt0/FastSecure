@@ -2,7 +2,7 @@
 
 // Fix swedish translation.
 
-$svContent = [
+$Content = [
   'headerContent' =>
   [
     'title' => 'Var speciell',

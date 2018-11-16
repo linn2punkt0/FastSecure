@@ -2,10 +2,13 @@
 declare(strict_types=1);
 
 
-function trans($key) {
+function trans($key1, $key2) {
+
   $locale = $_GET['lang'] ?? 'en';
 
   $translations = require __DIR__.'/lang/'.$locale.'.php';
 
-  echo $translations[$key];
+
+  return $Content[$key1][$key2];
+
 };
