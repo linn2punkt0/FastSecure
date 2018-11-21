@@ -1,10 +1,15 @@
+<?php
 
+ ?>
 
 <footer>
 
 
 
   <style>
+    p{
+      margin-bottom: 0;
+    }
     .contact{
       height: 100vh;
       width: 100vw;
@@ -14,7 +19,7 @@
       margin-bottom: 0px;
     }
     h2.contactinfoh2{
-      padding-top: 140px;
+      padding-top: 96px;
       font-weight: bold;
       margin-left: 10px;
       margin-bottom: 20px;
@@ -30,17 +35,82 @@
       margin-top: 36px;
       margin-left: 10px;
     }
+
+    /* footer menue start */
+    .footermenue{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
     .to-top{
       text-align: center;
-      padding-top: 25vh;
+      margin-top: 26px;
       font-size: 14px;
+      text-decoration: underline;
+      text-decoration-color: white;
+      color: white;
+    }
+
+    .footermenue-content{
+      padding-top: 46px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .footermenue-content a{
+      padding-top: 15px;
+      color: white;
+    }
+    .socialmedia{
+      margin-top: 36px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+    .socialmedia-content{
+      margin-right: 12px;
+      margin-left: 12px;
+      width: 35px;
+      height: 35px;
+      background-color: grey;
+    }
+
+    .copyright{
+      margin-top: 36px;
+    }
+    .copyright p{
+      font-size: 10px;
+      margin-bottom: 0;
+    }
+    .legal{
+      margin-top: 36px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+    .legal h3{
+      font-size: 14px;
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+    .wordmark{
+      margin-top: 36px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+
+    .wordmark h3{
+      font-size: 14px;
+      margin-left: 4px;
+      margin-right: 4px;
     }
 
 
-
   </style>
-  <div class="social-media">
-  </div>
+
     <div class="contact">
       <h2 class="contactinfoh2"> <?= trans('companyContact', 'contact'); ?> </h2>
 
@@ -49,9 +119,51 @@
       <p class="visit"><?= trans('companyContact', 'visitingAdress')?></p>
 
 
-      <a href="#top"><p class="to-top"> <?=trans('companyContact','back')?> ⇧</p></a>
-      <!-- <p class="visit"><?= trans(['companyContact']['backToTop'])?></p> -->
+
     </div>
+
+
+
+    <div class="footermenue">
+
+        <a href="#top"><p class="to-top"> <?=trans('companyContact','back')?> ⇧</p></a>
+      <div class="footermenue-content"
+        <a href=""><?=trans('home','title')?></a>
+        <a href=""><?=trans('performance','title')?></a>
+        <a href=""><?=trans('exclusivity','title')?></a>
+        <a href=""><?=trans('merchandise','title')?></a>
+        <a href=""><?=trans('companyContact','contact')?></a>
+      </div>
+
+        <div class="socialmedia">
+          <div class="socialmedia-content">
+          </div>
+          <div class="socialmedia-content">
+          </div>
+          <div class="socialmedia-content">
+          </div>
+          <div class="socialmedia-content">
+          </div>
+          <div class="socialmedia-content">
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>Copyright © 2018 Fast Security</p>
+        </div>
+
+        <div class="legal">
+          <h3>PRIVACY<h3>|
+          <h3>LEAGAL<h3>|
+          <h3>CONTACT US<h3>
+        </div>
+        <div class="wordmark">
+          <h3>WORDMARK<h3>
+        </div>
+    </div>
+
+
+
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
