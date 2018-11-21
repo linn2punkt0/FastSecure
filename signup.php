@@ -35,11 +35,11 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
 
     /* formstyle */
     .form-control{
+      padding: 0;
       background-color: black;
-      border: none;
       text-decoration: underline;
       text-decoration-color: white;
-      padding: 0;
+      border: none;
       opacity: 1;
       color: rgba(255, 255, 255, 1);
     }
@@ -63,21 +63,21 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
     }
     .firstname{
       width: 164px;
-      border-bottom: 1px solid white;
       margin-right: 10px;
+      border-bottom: 1px solid white;
     }
     .lastname{
       width: 164px;
       border-bottom: 1px solid white;
     }
     .btn-primary{
+      width: 241px;
+      height: 36px;
+      margin-top: 40px;
+      margin:auto;
       background-color: black;
       border-color: white;
       border-radius: 0;
-      width: 241px;
-      height: 36px;
-      margin:auto;
-      margin-top: 40px;
       display:block;
     }
 

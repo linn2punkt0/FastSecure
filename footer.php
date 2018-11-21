@@ -20,10 +20,10 @@
     }
     h2.contactinfoh2{
       padding-top: 96px;
-      font-weight: bold;
       margin-left: 10px;
       margin-bottom: 20px;
       letter-spacing: 1px;
+      font-weight: bold;
       font-size: 38px;
     }
     p{
@@ -70,10 +70,10 @@
       flex-direction: row;
     }
     .socialmedia-content{
-      margin-right: 12px;
-      margin-left: 12px;
       width: 35px;
       height: 35px;
+      margin-right: 12px;
+      margin-left: 12px;
       background-color: grey;
     }
 
@@ -91,9 +91,9 @@
       flex-direction: row;
     }
     .legal h3{
-      font-size: 14px;
       margin-left: 4px;
       margin-right: 4px;
+      font-size: 14px;
     }
     .wordmark{
       margin-top: 36px;
