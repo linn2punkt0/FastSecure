@@ -34,6 +34,12 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
     }
 
     /* formstyle */
+    #signup{
+
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
     .form-control{
       padding: 0;
       background-color: black;
@@ -54,8 +60,8 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
     .name{
       display: flex;
       align-items: center;
-
       align-content: center;
+      justify-content: center;
     }
     .email{
       width: 338px;
@@ -97,7 +103,7 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
 
 
 
-        <main class="container" id="signup">
+        <main  id="signup">
             <form class="col-lg-6 mt-3" action="signup.php" method="post">
 
               <?php foreach ($errors as $error): ?>
@@ -106,11 +112,12 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
                   </div><!-- /alert -->
               <?php endforeach; ?>
 
+            <div class="name">
               <div class="form-group email">
                   <label for="email"></label>
                   <input type="email" name="email" id="email" class="form-control" placeholder="<?=trans('contactForm','email')?>">
               </div><!-- /form-group -->
-
+            </div>
               <div class="name">
                 <div class="form-group firstname">
                     <label for="firstname"></label>
