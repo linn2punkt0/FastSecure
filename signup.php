@@ -14,6 +14,89 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
   }
 };
 ?>
+
+  <style>
+    .infoimg{
+      height: 280px;
+      background-color: grey;
+    }
+
+    .infotext h1{
+      font-size: 36px;
+      margin-top: 36px;
+      margin-left: 16px;
+    }
+    .infotext p{
+      font-size: 16px;
+      margin-top: 16px;
+      margin-left: 16px;
+      line-height: 30px;
+    }
+
+    /* formstyle */
+    .form-control{
+      background-color: black;
+      border: none;
+      text-decoration: underline;
+      text-decoration-color: white;
+      padding: 0;
+      opacity: 1;
+      color: rgba(255, 255, 255, 1);
+    }
+    /* ::placeholder{
+      background-color: black;
+      color: white;
+      opacity: 1;
+    } */
+    ::-webkit-input-placeholder{
+      color: white;
+    }
+    .name{
+      display: flex;
+      align-items: center;
+
+      align-content: center;
+    }
+    .email{
+      width: 338px;
+      border-bottom: 1px solid white;
+    }
+    .firstname{
+      width: 164px;
+      border-bottom: 1px solid white;
+      margin-right: 10px;
+    }
+    .lastname{
+      width: 164px;
+      border-bottom: 1px solid white;
+    }
+    .btn-primary{
+      background-color: black;
+      border-color: white;
+      border-radius: 0;
+      width: 241px;
+      height: 36px;
+      margin:auto;
+      margin-top: 40px;
+      display:block;
+    }
+
+
+  </style>
+
+      <div class="infoimg"
+        <img src="">
+      </div>
+
+      <div class="infotext">
+        <h1>Keep me informed</h1>
+
+        <p>Sign up to our newsletter and get news about the project aswell as access to our catalogue with exclusive content.</p>
+      </div>
+
+
+
+
         <main class="container" id="signup">
             <form class="col-lg-6 mt-3" action="signup.php" method="post">
 
@@ -23,20 +106,23 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
                   </div><!-- /alert -->
               <?php endforeach; ?>
 
-                <div class="form-group">
-                    <label for="firstname"><?=trans('contactForm','firstName')?></label>
-                    <input type="text" name="firstname" id="text" class="form-control">
+              <div class="form-group email">
+                  <label for="email"></label>
+                  <input type="email" name="email" id="email" class="form-control" placeholder="<?=trans('contactForm','email')?>">
+              </div><!-- /form-group -->
+
+              <div class="name">
+                <div class="form-group firstname">
+                    <label for="firstname"></label>
+                    <input type="text" name="firstname" id="text" class="form-control" placeholder="<?=trans('contactForm','firstName')?>">
                 </div><!-- /form-group -->
 
-                <div class="form-group">
-                    <label for="firstname"><?=trans('contactForm','lastName')?></label>
-                    <input type="text" name="lastname" id="text" class="form-control">
+                <div class="form-group lastname">
+                    <label for="firstname"></label>
+                    <input type="text" name="lastname" id="text" class="form-control" placeholder="<?=trans('contactForm','lastName')?>">
                 </div><!-- /form-group -->
+              </div>
 
-                <div class="form-group">
-                    <label for="email"><?=trans('contactForm','email')?></label>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="email@email.com">
-                </div><!-- /form-group -->
                 <button type="submit" class="btn btn-primary"><?=trans('contactForm','button')?></button>
             </form>
         </main><!-- /container -->

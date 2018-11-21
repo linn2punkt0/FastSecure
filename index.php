@@ -50,7 +50,7 @@ if (isset($_GET['page'])) {
     require __DIR__."/footer.php";
     set_url("index.php?lang=$lang&page=$page");
   }
-  
+
 
 
 
