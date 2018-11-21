@@ -48,9 +48,10 @@ if (isset($_GET['page'])) {
     require __DIR__."/main-content.php";
     require __DIR__."/signup.php";
     require __DIR__."/footer.php";
+    require __DIR__."/footermenue.php";
     set_url("index.php?lang=$lang&page=$page");
   }
-  
+
 
 
 
