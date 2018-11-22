@@ -15,35 +15,36 @@ $Content = [
   'FS1.0'=>
   [
     'title' => 'FS1.0',
-    'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well, as one of the world’s most innovative companies. And now we are proud to present our car for the future: FastSecurity, FS.',
+    'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well, as one of the world’s most innovative companies. And now we are proud to present our bike for the future: 
+      FastSecurity, FS. <br>All ready intrigued? Sign up to our newsletter and get access to the latest news and our product folder container exclusive content.',
     'button' => 'SIGN UP TO NEWSLETTER',
   ],
 
   'performance'=>
   [
-    'title' => 'Performance',
-    'content' => 'With the newly developed Saab fusion-3 driveline, FS1.0 will be one of the fastest motorcycles in the world.',
+    'title' => 'Silent performance',
+    'content' => 'The numbers speak for themselves: 120kW (160hp) of silent performance surge you from 0 to 100km/h in 3 seconds flat.',
     'button' => 'Read more',
   ],
 
-  'exclusivity'=>
+  'adventure'=>
   [
-    'title' => 'Exclusivity',
-    'content' => 'With a production of only 500, FS1.0 will be one of the most exclusive and rare motorcycles in the world.',
+    'title' => 'Thirst for adventure',
+    'content' => 'With its innovative 800-volt technology, and a range of 200km  –  Fast Security 1.0 is always ready when you are. ',
     'button' => 'Read more',
   ],
 
-  'merchandise'=>
+  'sustainable'=>
   [
-    'title' => 'Merchandise',
-    'content' =>  'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well.',
+    'title' => 'Sustainable',
+    'content' =>  'As the sports bike of the future FS 1.0 is our vision of pure e-mobility in the form of an all-electric sports bike for an active and sustainable lifestyle. ',
     'button' => 'Read more',
   ],
 
   'newsletter'=>
   [
     'title' => 'Newsletter',
-    'content' =>  'Sign up to our newsletter and getnews about the project as well as acess to our catalogue with exclusive content.',
+    'content' =>  'With FS1.0 still in development we have regular progress to share with you. Sign up below and get weekly updates about the project and the product folder containing exclusive content. ',
   ],
 
   'home' =>
