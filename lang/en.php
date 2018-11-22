@@ -3,7 +3,7 @@
 $Content = [
   'headerContent' =>
   [
-    'title' => 'Be special',
+    'title' => 'Be special.',
     'scroll' => 'Scroll Down'
   ],
 
@@ -57,7 +57,7 @@ $Content = [
     'firstName' => 'First Name',
     'lastName' => 'Last Name',
     'email' => 'EMAIL ADRESS',
-    'button' => 'SUBSCRIBE'
+    'button' => 'SIGN UP TO NEWSLETTER'
   ],
 
   'companyContact' =>
@@ -68,4 +68,11 @@ $Content = [
     'email' => 'E-mail: saabtechnologiesuk@saabgroup.com',
     'back' => 'Back to top'
   ],
+
+  'legal' =>
+  [
+    'privacy' => 'PRIVACY',
+    'legal' => 'LEGAL',
+    'contact' => 'CONTACT US'
+  ]
 ];
