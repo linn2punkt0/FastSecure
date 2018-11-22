@@ -95,9 +95,9 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
       </div>
 
       <div class="infotext">
-        <h1>Keep me informed</h1>
+        <h1><?=trans('newsletter','title')?></h1>
 
-        <p>Sign up to our newsletter and get news about the project aswell as access to our catalogue with exclusive content.</p>
+        <p><?=trans('newsletter','content')?></p>
       </div>
 
 
