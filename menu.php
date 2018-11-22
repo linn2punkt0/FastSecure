@@ -9,8 +9,8 @@
     <div class="shortcuts">
         <a href=""><?=trans('home','title')?></a>
         <a href=""><?=trans('performance','title')?></a>
-        <a href=""><?=trans('exclusivity','title')?></a>
-        <a href=""><?=trans('merchandise','title')?></a>
+        <a href=""><?=trans('adventure','title')?></a>
+        <a href=""><?=trans('sustainable','title')?></a>
         <a href=""><?=trans('companyContact','contact')?></a>
     </div>
     <form class="lang" action="index.php" method="get">
