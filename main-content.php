@@ -61,7 +61,7 @@ require __DIR__."/header.php";
                 <?=trans('exclusivity','content')?>
             </div>
             <div class="read-more-button">
-                <?=trans('exclusivity','button')?> >
+                <p><?=trans('exclusivity','button')?> ></p>
             </div>
         </div>
         <div class="content-img-exclusivity"></div>
@@ -75,27 +75,8 @@ require __DIR__."/header.php";
         <?=trans('merchandise','content')?>
       </div>
       <div class="read-more-button">
-        <?=trans('merchandise','button')?> >
+        <p><?=trans('merchandise','button')?> ></p>
       </div>
-    </div>
-    <div class="content-img-merchandise"></div>
-  </div>
-  <div class="eight-page">
-    <div class="content-wrapper-newsletter">
-      <div class="headline-text">
-        <?=trans('newsletter','title')?>
-      </div>
-      <div class="content-box">
-        <?=trans('newsletter','content')?>
-      </div>
-      <!-- add input field below-->
-        <div class="subscribe-email">
-          <?=trans('contactForm','email')?>
-        </div>
-            <!-- implement 'subscribe' button below-->
-            <div class="subscribe-button">
-              <?=trans('contactForm','button')?>
-            </div>
     </div>
   </div>
 </div>
