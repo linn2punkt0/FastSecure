@@ -21,6 +21,9 @@ nav button{
 nav .extra {
     width: 24pt;
 }
+nav img {
+    width: 60px;
+}
 .shortcuts{
     display:flex;
     flex-direction: column;
@@ -49,7 +52,7 @@ nav .extra {
 <div class="menu">
     <nav>
         <div class="extra"></div>
-        <img src="" alt="logo">
+        <img src="./FS_logo/SVG/logo_vit.svg" alt="logo">
         <form action="index.php" method="get">
             <button type="submit" name="page" value="index"><img src="" alt="exit"></button>
         </form>

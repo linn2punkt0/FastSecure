@@ -38,7 +38,7 @@ $Content = [
 
   'merchandise'=>
   [
-    'title' => 'Merchandise på svenska',
+    'title' => 'Merchandise',
     'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well.',
     'button' => 'Läs mer',
   ],
