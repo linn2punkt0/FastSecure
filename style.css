@@ -16,11 +16,21 @@
     align-items: center;
     justify-content: space-between;
 }
+.navbar{
+    width: 100vw;
+    height: 56px;
+    display:flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
 nav{
     height: 56pt;
     width: 100vw;
     margin: 0;
     display: flex;
+    z-index: 1;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -64,7 +74,7 @@ p {
 .content {
   @media (min-width: 576px){
     height: 100%;
-    width: 100vh;
+    width: 100vh-64px;
     display: flex;
     font-size: 13px;
   }
@@ -76,11 +86,12 @@ p {
   height: 100vh;
   display: flex;
   align-items: flex-end;
+  background-color: grey;
 }
 
 .scroll-down {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 106px;
   display: flex;
   justify-content: center;
 }
@@ -95,21 +106,42 @@ p {
 .third-page {
   width: 100%;
   height: 100vh;
+  background-color: grey;
 }
 
 .fourth-page {
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .fifth-page {
   width: 100%;
-  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.fifth-page .headline-text {
+  padding-top: 32px;
+  margin-left: 16px;
+  margin-top: 0;
+}
+.fifth-page .content-box {
+  padding-top: 16px;
+  margin-left: 16px;
+  margin-top: 0;
+}
+
+.read-more-button {
+  margin-top: 24px;
+  margin-left: 16px;
+  margin-bottom: 56px;
+  width: 50%;
+  font-size: 14px;
+}
+.read-more-button p {
+  font-size: 14px;
+  border-bottom: 1px solid white;
 }
 
 .sixth-page {
@@ -137,22 +169,31 @@ p {
 }
 
 .headline {
-  font-family: "AktivGrotesk-Bold";
+  width: 120px;
+  padding-top: 96px;
+  margin-left: 64px;
   font-size: 40px;
-  margin: 20px;
+  line-height: 0.9;
 }
 .content-wrapper-fs{
   width: 100%;
   height: 45%;
-  margin: 5px;
   display: flex;
   flex-direction: column;
 }
+.content-wrapper-fs .headline-text{
+  margin-top: 32px;
+  margin-left: 16px;
+  padding-top: 0;
+}
+.content-wrapper-fs .content-box{
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-bottom: 64px;
+  padding-top: 0;
+}
 
 .content-wrapper{
-  width: 100%;
-  height: 30%;
-  margin: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -160,20 +201,20 @@ p {
 .content-wrapper-newsletter{
   width: 100%;
   height: 50%;
-  margin: 5px;
   display: flex;
   flex-direction: column;
 }
 
 .headline-text {
-  font-family: "AktivGrotesk-Bold";
-  font-size: 30px;
-  margin-left: 10px;
+  width: 120px;
+  font-size: 40px;
+  padding-top: 96px;
+  margin-left: 64px;
+
 }
 
 .content-box {
   font-size: 16px;
-  margin: 10px;
 }
 
 .newsletter-button {
@@ -181,6 +222,7 @@ p {
   width: 65%;
   height: 10%;
   margin-top: 20px;
+  margin-bottom: 64px;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -188,19 +230,16 @@ p {
 
 .content-img{
   width: 100%;
-  height: 250px;
-  border: 2px solid white;
+  height: 280px;
+  background-color: grey;
 }
 
-.read-more-button {
-  font-size: 16px;
-  margin: 10px;
-}
+
 
 .content-img-performance{
   width: 100%;
   height: 250px;
-  border: 2px solid white;
+  background-color: grey;
   margin-bottom: 20px;
 }
 
