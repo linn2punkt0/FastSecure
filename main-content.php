@@ -9,7 +9,6 @@ require __DIR__."/header.php";
             <?=trans('headerContent','scroll')?>
         </div>
     </div>
-
     <div class="second-page">
         <div class="headline">
           <?=trans('headerContent', 'title')?>
