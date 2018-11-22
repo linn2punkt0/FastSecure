@@ -55,27 +55,27 @@ require __DIR__."/header.php";
     <div class="sixth-page">
         <div class="content-wrapper">
             <div class="headline-text">
-                <?=trans('exclusivity','title')?>
+                <?=trans('adventure','title')?>
             </div>
             <div class="content-box">
-                <?=trans('exclusivity','content')?>
+                <?=trans('adventure','content')?>
             </div>
             <div class="read-more-button">
-                <p><?=trans('exclusivity','button')?> ></p>
+                <p><?=trans('adventure','button')?> ></p>
             </div>
         </div>
-        <div class="content-img-exclusivity"></div>
+        <div class="content-img-adventure"></div>
     </div>
   <div class="seventh-page">
     <div class="content-wrapper">
       <div class="headline-text">
-        <?=trans('merchandise','title')?>
+        <?=trans('sustainable','title')?>
       </div>
       <div class="content-box">
-        <?=trans('merchandise','content')?>
+        <?=trans('sustainable','content')?>
       </div>
       <div class="read-more-button">
-        <p><?=trans('merchandise','button')?> ></p>
+        <p><?=trans('sustainable','button')?> ></p>
       </div>
     </div>
   </div>
