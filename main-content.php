@@ -35,9 +35,10 @@ require __DIR__."/header.php";
                 <?=trans('FS1.0','button')?>
             </div>
         </div>
-        <div class="content-img"></div>
+
     </div>
     <div class="fifth-page">
+      <div class="content-img"></div>
         <div class="content-wrapper">
             <div class="headline-text">
                 <?=trans('performance','title')?>
@@ -46,7 +47,7 @@ require __DIR__."/header.php";
                 <?=trans('performance','content')?>
             </div>
             <div class="read-more-button">
-                <?=trans('performance','button')?> >
+              <p>  <?=trans('performance','button')?> ></p>
             </div>
         </div>
         <div class="content-img-performance"></div>
