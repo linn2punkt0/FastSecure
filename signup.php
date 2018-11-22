@@ -34,12 +34,18 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
     }
 
     /* formstyle */
+    #signup{
+
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
     .form-control{
+      padding: 0;
       background-color: black;
-      border: none;
       text-decoration: underline;
       text-decoration-color: white;
-      padding: 0;
+      border: none;
       opacity: 1;
       color: rgba(255, 255, 255, 1);
     }
@@ -54,8 +60,8 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
     .name{
       display: flex;
       align-items: center;
-
       align-content: center;
+      justify-content: center;
     }
     .email{
       width: 338px;
@@ -63,21 +69,21 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
     }
     .firstname{
       width: 164px;
-      border-bottom: 1px solid white;
       margin-right: 10px;
+      border-bottom: 1px solid white;
     }
     .lastname{
       width: 164px;
       border-bottom: 1px solid white;
     }
     .btn-primary{
+      width: 241px;
+      height: 36px;
+      margin-top: 40px;
+      margin:auto;
       background-color: black;
       border-color: white;
       border-radius: 0;
-      width: 241px;
-      height: 36px;
-      margin:auto;
-      margin-top: 40px;
       display:block;
     }
 
@@ -97,7 +103,7 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
 
 
 
-        <main class="container" id="signup">
+        <main  id="signup">
             <form class="col-lg-6 mt-3" action="signup.php" method="post">
 
               <?php foreach ($errors as $error): ?>
@@ -106,11 +112,12 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
                   </div><!-- /alert -->
               <?php endforeach; ?>
 
+            <div class="name">
               <div class="form-group email">
                   <label for="email"></label>
                   <input type="email" name="email" id="email" class="form-control" placeholder="<?=trans('contactForm','email')?>">
               </div><!-- /form-group -->
-
+            </div>
               <div class="name">
                 <div class="form-group firstname">
                     <label for="firstname"></label>
