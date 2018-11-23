@@ -34,7 +34,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
 }
-nav button {
+nav .button {
   width: 24px;
 }
 nav .extra {
