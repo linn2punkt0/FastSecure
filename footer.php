@@ -128,11 +128,11 @@
 
         <a href="#top"><p class="to-top"> <?=trans('companyContact','back')?> ⇧</p></a>
       <div class="footermenue-content"
-        <a href=""><?=trans('home','title')?></a>
-        <a href=""><?=trans('performance','title')?></a>
-        <a href=""><?=trans('exclusivity','title')?></a>
-        <a href=""><?=trans('merchandise','title')?></a>
-        <a href=""><?=trans('companyContact','contact')?></a>
+      <a href=""><?=trans('home','title')?></a>
+      <a href=""><?=trans('performance','title')?></a>
+      <a href=""><?=trans('adventure','title')?></a>
+      <a href=""><?=trans('sustainable','title')?></a>
+      <a href=""><?=trans('companyContact','contact')?></a>
       </div>
 
         <div class="socialmedia">
