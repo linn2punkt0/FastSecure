@@ -7,6 +7,8 @@
 
 
   <style>
+
+
     p{
       margin-bottom: 0;
     }
@@ -108,21 +110,86 @@
       margin-right: 4px;
     }
 
+    /* Fade in text block start: */
+
+    .fade-in {
+      background-color: black;
+      display: flex;
+      width: 100vh;
+      flex-direction: column;
+      color: white;
+      font-family: Helvetica;
+    }
+
+    .content ul li {
+      list-style-type: none;
+      position: relative;
+      width: 100vh;
+      margin: 0 auto;
+      /* padding-top: 50px; */
+      display: flex;
+      /* text-align: left; */
+    }
+
+    .content ul li div {
+      visibility: hidden;
+      opacity: 0;
+      transition: all .6s ease-in-out;
+      /* position: relative; */
+      /* change the margin here below:  */
+      /* margin-left: 10px; */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content ul li div::before {
+      position: absolute;
+      top: 30px;
+      width: 100px;
+      height: 1px;
+    }
+
+    .content ul li .right {
+      width: 100vw;
+      text-align: center;
+      transform: translate3d(500px,0,0);
+    }
+
+    /*.content ul li .right::before {
+      left: -50px;
+    }*/
+
+    .in-view {
+      width: 100vw;
+    }
+
+    .content ul li.in-view div {
+      transform: none;
+      visibility: visible;
+      opacity: 1;
+    }
+
+
+
+
 
   </style>
-
-    <div class="contact">
-      <h2 class="contactinfoh2"> <?= trans('companyContact', 'contact'); ?> </h2>
-
-      <p class="contactinfo"><?= trans('companyContact', 'email')?></p>
-      <p class="contactinfo"><?= trans('companyContact', 'phone')?></p>
-      <p class="visit"><?= trans('companyContact', 'visitingAdress')?></p>
-
-
-
-    </div>
-
-
+<div class="fade-in">
+  <section class="content">
+    <ul>
+      <li>
+        <div class="right">
+          <div class="contact">
+            <h2 class="contactinfoh2"> <?= trans('companyContact', 'contact'); ?> </h2>
+            <p class="contactinfo"><?= trans('companyContact', 'email')?></p>
+            <p class="contactinfo"><?= trans('companyContact', 'phone')?></p>
+            <p class="visit"><?= trans('companyContact', 'visitingAdress')?></p>
+          </div>
+        </div>
+      </ul>
+    </li>
+</section>
+</div>
 
     <div class="footermenue">
 

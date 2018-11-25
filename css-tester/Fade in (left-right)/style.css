@@ -6,11 +6,8 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   background-color: black;
-  padding-bottom: 50px;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -19,38 +16,30 @@ body {
 }
 
 
-/* STORYSECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.story {
-  /* color: var(--h1-color); */
-  /* font-family: "IBM Plex Sans"; */
-  font-size: 23px;
-}
-
-p {
-  /* color: var(--txt-color); */
-  width: 120px;
-  font-family: "Light";
-  font-size: 16px;
+.headline {
+  color: white;
+  font-size: 80px;
+  display: flex;
+  text-align: left;
 }
 
 .content ul li {
   list-style-type: none;
   position: relative;
-  width: 1px;
+  width: 100vh;
   margin: 0 auto;
   padding-top: 50px;
-  /* background: #FFFFFF; */
   display: flex;
+  text-align: left;
 }
 
 .content ul li div {
   visibility: hidden;
   opacity: 0;
-  transition: all .5s ease-in-out;
+  transition: all .6s ease-in-out;
   position: relative;
-  padding: 15px;
+  /* change the margin here below:  */
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -60,68 +49,24 @@ p {
   top: 30px;
   width: 100px;
   height: 1px;
-  background: #FFFFFF;
 }
 
 .content ul li .right {
-  left: 50px;
-  text-align: right;
-  transform: translate3d(200px,0,0);
+  width: 100vw;
+  text-align: center;
+  transform: translate3d(500px,0,0);
 }
 
-.content ul li .right::before {
+/*.content ul li .right::before {
   left: -50px;
-}
+}*/
 
-.content ul li .left {
-  top: 50px;
-  text-align: right;
-  transform: translate3d(200px,0,0);
-}
-
-.content ul li .up::before {
-  top: -50px;
-}
-
-.content ul li .left {
-  left: -200px;
-  text-align: left;
-  transform: translate3d(-200px,0,0);
-}
-
-.content ul li .left::before {
-  left: 100px;
+.in-view {
+  width: 100vw;
 }
 
 .content ul li.in-view div {
   transform: none;
   visibility: visible;
   opacity: 1;
-}
-
-@media screen and (max-width: 900px) {
-  /* .content ul li div {
-    width: 250px;
-  }
-  .content ul li .left div {
-    left: -289px;
-  } */
-}
-
-@media screen and (max-width: 600px) {
-  .content ul li .right {
-    left: 30px;
-  }
-
-  .content ul li .right::before {
-    left: -30px;
-  }
-
-  .content ul li .left {
-    left: -180px;
-  }
-
-  .content ul li .left::before {
-    left: 80px;
-  }
 }
