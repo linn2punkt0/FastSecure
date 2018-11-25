@@ -185,3 +185,63 @@ p {
   align-self: center;
   justify-content: center;
 }
+
+
+    /* Fade in text block start: */
+
+    .fade-in {
+      background-color: black;
+      display: flex;
+      width: 100vh;
+      flex-direction: column;
+      color: white;
+      font-family: Helvetica;
+    }
+
+    .content ul li {
+      list-style-type: none;
+      position: relative;
+      width: 100vh;
+      margin: 0 auto;
+      /* padding-top: 50px; */
+      display: flex;
+      /* text-align: left; */
+    }
+
+    .content ul li div {
+      visibility: hidden;
+      opacity: 0;
+      transition: all .6s ease-in-out;
+      /* position: relative; */
+      /* change the margin here below:  */
+      /* margin-left: 10px; */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content ul li div::before {
+      position: absolute;
+      top: 30px;
+      width: 100px;
+      height: 1px;
+    }
+
+    .content ul li .right {
+      width: 100vw;
+      text-align: center;
+      transform: translate3d(500px,0,0);
+    }
+
+    /*.content ul li .right::before {
+      left: -50px;
+    }*/
+
+    .in-view {
+      width: 100vw;
+    }
+
+    .content ul li.in-view div {
+      transform: none;
+      visibility: visible;
+      opacity: 1;
+    }

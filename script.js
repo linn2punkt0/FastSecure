@@ -10,7 +10,7 @@ function isElementInViewport(el) {
 
 
 
-let items = document.querySelectorAll(".content2 li");
+let items = document.querySelectorAll(".content li");
 
 // code for the isElementInViewport function
 

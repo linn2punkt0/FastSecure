@@ -9,23 +9,51 @@ require __DIR__."/header.php";
             <?=trans('headerContent','scroll')?>
         </div>
     </div>
-    <div class="second-page">
-        <div class="headline">
-          <?=trans('headerContent', 'title')?>
-        </div>
-    </div>
-
-    <div class="third-page">
-        <div class="headline">
-            <?=trans('secondContent', 'title')?>
-        </div>
-    </div>
-
-    <div class="fourth-page">
-        <div class="content-wrapper-fs">
-            <div class="headline-text">
-                <?=trans('FS1.0','title')?>
+    <!-- Fade in text block start  -->
+    <section class="content">
+      <ul>
+        <li>
+          <div class="right">
+            <div class="second-page">
+                <div class="headline">
+                  <?=trans('headerContent', 'title')?>
+                </div>
             </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Fade in text block start  -->
+    <section class="content">
+      <ul>
+        <li>
+          <div class="right">
+            <div class="third-page">
+                <div class="headline">
+                    <?=trans('secondContent', 'title')?>
+                </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  <!-- Fade in text block start  -->
+  <section class="content">
+    <ul>
+      <li>
+        <div class="right">
+            <div class="fourth-page">
+                <div class="content-wrapper-fs">
+                  <div class="headline-text">
+                    <?=trans('FS1.0','title')?>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </li>
+    </ul>
+  </section>
             <div class="content-box">
                 <?=trans('FS1.0','content')?>
             </div>
