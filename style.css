@@ -1,21 +1,14 @@
 /* ANVÄND CLASS FÖR ATT OVERRIDE:A BOOTSTRAP!!! */
 
 .body {
-  width: 100%;
-  height: 100vh;
+  width: 100vw;
+  /* height: 100vh; */
   background-color: black;
   font-family: "AktivGrotesk";
   color: white;
 }
 
-.menu {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
+/* Navbar */
 .navbar {
   width: 100vw;
   height: 56px;
@@ -24,7 +17,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  transition: top 0.3s;
+  z-index: 1000;
 }
+
 nav {
   height: 56pt;
   width: 100vw;
@@ -43,6 +42,110 @@ nav .extra {
 nav img {
   width: 60px;
 }
+
+/* Burgermenu and animation */
+#nav-icon1 {
+  width: 60px;
+  height: 45px;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg) scale(0.5);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+}
+
+#nav-icon1 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: white;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon1 span:nth-child(2) {
+  top: 18px;
+  background: #10fbfc;
+}
+
+#nav-icon1 span:nth-child(3) {
+  top: 36px;
+}
+
+#nav-icon1.open span:nth-child(1) {
+  top: 18px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+#nav-icon1.open span:nth-child(3) {
+  top: 18px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/* Styling and animation of the two content divs */
+.menu-selector {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  opacity: 0;
+  z-index: 500;
+  pointer-events: none;
+}
+
+.index-selector {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: relative;
+}
+
+.display {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* Menu */
+.menu {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 .shortcuts {
   display: flex;
   flex-direction: column;
@@ -56,6 +159,7 @@ nav img {
 .lang {
   display: flex;
   flex-direction: row;
+  bottom: 0;
 }
 .lang button {
   width: 50vw;
@@ -66,6 +170,7 @@ nav img {
   border: solid 1px grey;
 }
 
+/* Main content */
 p {
   font-size: 20px;
 }
@@ -269,104 +374,102 @@ p {
   justify-content: center;
 }
 
-    /* Fade in text block start: */
+/* Fade in text block start: */
 
-    .fade-in {
-      background-color: black;
-      display: flex;
-      width: 100vh;
-      flex-direction: column;
-      color: white;
-      font-family: Helvetica;
-    }
+.fade-in {
+  background-color: black;
+  display: flex;
+  width: 100vh;
+  flex-direction: column;
+  color: white;
+  font-family: Helvetica;
+}
 
-    .content ul li {
-      list-style-type: none;
-      position: relative;
-      width: 100vh;
-      margin: 0 auto;
-      /* padding-top: 50px; */
-      display: flex;
-      /* text-align: right; */
-    }
+.content ul li {
+  list-style-type: none;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto;
+  /* padding-top: 50px; */
+  display: flex;
+  /* text-align: right; */
+}
 
-    .content ul li div {
-      visibility: hidden;
-      opacity: 0;
-      transition: all .4s ease-in-out;
-      /* position: relative; */
-      /* change the margin here below:  */
-      /* margin-left: 10px; */
-      display: flex;
-      flex-direction: column;
-    }
+.content ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  /* position: relative; */
+  /* change the margin here below:  */
+  /* margin-left: 10px; */
+  display: flex;
+  flex-direction: column;
+}
 
-    .content ul li div::before {
-      position: absolute;
-      /* top: 30px; */
-      width: 100px;
-      height: 1px;
-    }
+.content ul li div::before {
+  position: relative;
+  /* top: 30px; */
+  width: 100px;
+  height: 1px;
+}
 
-    .content ul li .right {
-      width: 100vw;
-      text-align: center;
-      transform: translate3d(-300px,0,0);
-    }
+.content ul li .right {
+  width: 100vw;
+  text-align: center;
+  transform: translate3d(-300px, 0, 0);
+}
 
+.in-view {
+  width: 100vw;
+}
 
-    .in-view {
-      width: 100vw;
-    }
-
-    .content ul li.in-view div {
-      transform: none;
-      visibility: visible;
-      opacity: 1;
-    }
+.content ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
 
 /* signup style */
 
-p{
+p {
   margin-bottom: 0;
 }
-.contact{
+.contact {
   height: 100vh;
   width: 100vw;
 }
-.contactinfo{
+.contactinfo {
   margin-left: 10px;
   margin-bottom: 0px;
 }
 
-h2.contactinfoh2{
+h2.contactinfoh2 {
   padding-top: 96px;
   margin-left: 10px;
   margin-bottom: 20px;
   letter-spacing: 1px;
   font-size: 32px;
 }
-p{
+p {
   font-size: 16px;
   letter-spacing: 1px;
-
 }
 .visit {
   margin-top: 36px;
   margin-left: 10px;
 }
 
-.infoimg{
+.infoimg {
   height: 280px;
   background-color: grey;
 }
 
-.infotext h1{
+.infotext h1 {
   font-size: 32px;
   margin-top: 36px;
   margin-left: 16px;
 }
-.infotext p{
+.infotext p {
   font-size: 16px;
   margin-top: 16px;
   margin-left: 16px;
@@ -374,12 +477,12 @@ p{
 }
 
 /* formstyle */
-#signup{
-  display:flex;
+#signup {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.form-control{
+.form-control {
   padding: 0;
   background-color: black;
   text-decoration: underline;
@@ -393,48 +496,48 @@ p{
   color: white;
   opacity: 1;
 } */
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
   color: white;
 }
-.name{
+.name {
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
 }
-.email{
+.email {
   width: 338px;
   border-bottom: 1px solid white;
 }
-.firstname{
+.firstname {
   width: 164px;
   margin-right: 10px;
   border-bottom: 1px solid white;
 }
-.lastname{
+.lastname {
   width: 164px;
   border-bottom: 1px solid white;
 }
-.btn-primary{
+.btn-primary {
   width: 241px;
   height: 36px;
   margin-top: 40px;
-  margin:auto;
+  margin: auto;
   background-color: black;
   border-color: white;
   border-radius: 0;
-  display:block;
+  display: block;
 }
 
-/* footer menue start */
-.footermenue{
+/* footer menu start */
+.footermenu {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.to-top{
+.to-top {
   text-align: center;
   margin-top: 26px;
   font-size: 14px;
@@ -442,23 +545,23 @@ p{
   text-decoration-color: white;
   color: white;
 }
-.footermenue-content{
+.footermenu-content {
   padding-top: 46px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.footermenue-content a{
+.footermenu-content a {
   padding-top: 15px;
   color: white;
 }
-.socialmedia{
+.socialmedia {
   margin-top: 36px;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.socialmedia-content{
+.socialmedia-content {
   width: 35px;
   height: 35px;
   margin-right: 12px;
@@ -466,32 +569,32 @@ p{
   background-color: grey;
 }
 
-.copyright{
+.copyright {
   margin-top: 36px;
 }
-.copyright p{
+.copyright p {
   font-size: 10px;
   margin-bottom: 0;
 }
-.legal{
+.legal {
   margin-top: 36px;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.legal h3{
+.legal h3 {
   margin-left: 4px;
   margin-right: 4px;
   font-size: 14px;
 }
-.wordmark{
+.wordmark {
   margin-top: 36px;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
 
-.wordmark h3{
+.wordmark h3 {
   font-size: 14px;
   margin-left: 4px;
   margin-right: 4px;

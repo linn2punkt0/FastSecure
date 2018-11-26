@@ -3,12 +3,11 @@ function isElementInViewport(el) {
   return (
     rect.right >= 0 &&
     rect.left >= 0 &&
-    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.bottom <=
+      (window.innerHeight || document.documentElement.clientHeight) &&
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 }
-
-
 
 let items = document.querySelectorAll(".content li");
 
@@ -24,3 +23,24 @@ function callbackFunc() {
 
 window.addEventListener("load", callbackFunc);
 window.addEventListener("scroll", callbackFunc);
+
+// Burger-animation
+$(document).ready(function() {
+  $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function() {
+    $(this).toggleClass("open");
+    console.log("click");
+    $(".menu-selector").toggleClass("display");
+  });
+});
+
+// Navbar visible when scrolling up
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.querySelector(".navbar").style.top = "0";
+  } else {
+    document.querySelector(".navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+};
