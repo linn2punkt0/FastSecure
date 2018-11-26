@@ -62,9 +62,10 @@ require __DIR__."/header.php";
                 <?=trans('FS1.0','button')?>
             </div>
         </div>
-        <div class="content-img"></div>
+
     </div>
     <div class="fifth-page">
+      <div class="content-img"></div>
         <div class="content-wrapper">
             <div class="headline-text">
                 <?=trans('performance','title')?>
@@ -73,7 +74,7 @@ require __DIR__."/header.php";
                 <?=trans('performance','content')?>
             </div>
             <div class="read-more-button">
-                <?=trans('performance','button')?> >
+              <p>  <?=trans('performance','button')?> ></p>
             </div>
         </div>
         <div class="content-img-performance"></div>
@@ -81,47 +82,28 @@ require __DIR__."/header.php";
     <div class="sixth-page">
         <div class="content-wrapper">
             <div class="headline-text">
-                <?=trans('exclusivity','title')?>
+                <?=trans('adventure','title')?>
             </div>
             <div class="content-box">
-                <?=trans('exclusivity','content')?>
+                <?=trans('adventure','content')?>
             </div>
             <div class="read-more-button">
-                <?=trans('exclusivity','button')?> >
+                <p><?=trans('adventure','button')?> ></p>
             </div>
         </div>
-        <div class="content-img-exclusivity"></div>
+        <div class="content-img-adventure"></div>
     </div>
   <div class="seventh-page">
     <div class="content-wrapper">
       <div class="headline-text">
-        <?=trans('merchandise','title')?>
+        <?=trans('sustainable','title')?>
       </div>
       <div class="content-box">
-        <?=trans('merchandise','content')?>
+        <?=trans('sustainable','content')?>
       </div>
       <div class="read-more-button">
-        <?=trans('merchandise','button')?> >
+        <p><?=trans('sustainable','button')?> ></p>
       </div>
-    </div>
-    <div class="content-img-merchandise"></div>
-  </div>
-  <div class="eight-page">
-    <div class="content-wrapper-newsletter">
-      <div class="headline-text">
-        <?=trans('newsletter','title')?>
-      </div>
-      <div class="content-box">
-        <?=trans('newsletter','content')?>
-      </div>
-      <!-- add input field below-->
-        <div class="subscribe-email">
-          <?=trans('contactForm','email')?>
-        </div>
-            <!-- implement 'subscribe' button below-->
-            <div class="subscribe-button">
-              <?=trans('contactForm','button')?>
-            </div>
     </div>
   </div>
 </div>

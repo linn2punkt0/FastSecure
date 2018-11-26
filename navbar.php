@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="navbar">
   <nav>
     <div class="extra"></div>
     <img src="./FS_logo/SVG/logo_vit.svg" alt="Logo">

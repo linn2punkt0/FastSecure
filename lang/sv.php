@@ -29,14 +29,14 @@ $Content = [
     'button' => 'Läs mer',
   ],
 
-  'exclusivity'=>
+  'adventure'=>
   [
     'title' => 'Exklusivitet',
     'content' => 'With a production of only 500, FS1.0 will be one of the most exclusive and rare motorcycles in the world.',
     'button' => 'Läs mer',
   ],
 
-  'merchandise'=>
+  'sustainable'=>
   [
     'title' => 'Merchandise',
     'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well.',
