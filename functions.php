@@ -17,8 +17,3 @@ function trans($key1, $key2) {
 
   return $Content[$key1][$key2];
 };
-
-function set_url( $url )
-{
-    echo("<script>history.replaceState({},'','$url');</script>");
-}
