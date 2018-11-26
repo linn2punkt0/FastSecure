@@ -116,8 +116,9 @@ nav img {
 
 /* Styling and animation of the two content divs */
 .menu-selector {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  top: 56px;
   background-color: black;
   position: fixed;
   opacity: 0;
