@@ -5,41 +5,52 @@ require __DIR__."/header.php";
 
 <div class="content">
 
-  <!-- Fade in text block start  -->
-  <section class="content">
-    <ul>
-      <li>
-        <div class="right">
-            <div class="first-page">
-              <div class="headline">
-                <h2><?=trans('firstContent', 'title')?></h2>
-              </div>
+  <!-- Second first page start  -->
+        <div class="first-page">
+          <!-- Fade in text block start  -->
+            <section class="content">
+              <ul>
+                <li>
+                  <div class="right">
+                      <div class="headline">
+                          <h2><?=trans('firstContent', 'title')?></h2>
+                      </div>
+                  </div>
+
+              </li>
+            </ul>
+      </section>
+
+
+      <!-- implement 'scroll down' button below-->
+            <div class="scroll-down">
+                  <?=trans('firstContent','scroll')?>
             </div>
         </div>
-      </li>
-    </ul>
-  </section>
-            <!-- implement 'scroll down' button below-->
-                <div class="scroll-down">
-                    <?=trans('firstContent','scroll')?>
-                </div>
 
-    <!-- Fade in text block start  -->
-    <section class="content">
-      <ul>
-        <li>
-          <div class="right">
-            <div class="second-page">
-                <div class="headline">
-                  <h2><?=trans('headerContent', 'title')?></h2>
+  <!-- //First page end  -->
+
+
+<!-- Second page start  -->
+      <div class="second-page">
+        <!-- Fade in text block start  -->
+          <section class="content">
+            <ul>
+              <li>
+                <div class="right">
+                    <div class="headline">
+                        <h2><?=trans('headerContent', 'title')?></h2>
+                    </div>
                 </div>
-            </div>
-          </div>
-        </li>
-      </ul>
+              </div>
+            </li>
+          </ul>
     </section>
-    <!-- Fade in text block start  -->
-            <div class="third-page">
+<!-- //Second page start  -->
+
+<!-- Third page start  -->
+          <div class="third-page">
+            <!-- Fade in text block start  -->
               <section class="content">
                 <ul>
                   <li>
@@ -52,7 +63,9 @@ require __DIR__."/header.php";
         </li>
       </ul>
     </section>
+<!-- //Third page end  -->
 
+<!-- Fourth page start  -->
             <div class="fourth-page">
                 <div class="content-wrapper-fs">
                   <div class="headline-text">
@@ -68,6 +81,8 @@ require __DIR__."/header.php";
                 <?=trans('FS1.0','button')?>
             </div>
         </div>
+<!-- //Fourth page start  -->
+
     <div class="fifth-page">
       <div class="content-img"></div>
         <div class="content-wrapper">
