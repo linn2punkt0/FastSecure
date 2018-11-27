@@ -18,6 +18,9 @@ function callbackFunc() {
     if (isElementInViewport(items[i])) {
       items[i].classList.add("in-view");
     }
+    else{
+      items[i].classList.remove("in-view");
+    }
   }
 }
 
