@@ -1,10 +1,17 @@
 <?php
 
 $Content = [
+  
+  'firstContent' =>
+  [
+    'title' => 'Become the pilot',
+    'scroll' => 'SCROLL DOWN'
+  ],
+
   'headerContent' =>
   [
-    'title' => 'Be special.',
-    'scroll' => 'Scroll Down'
+    'title' => 'Be special',
+    // 'scroll' => 'Scroll Down'
   ],
 
   'secondContent' =>
@@ -15,7 +22,7 @@ $Content = [
   'FS1.0'=>
   [
     'title' => 'FS1.0',
-    'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well, as one of the world’s most innovative companies. And now we are proud to present our bike for the future: 
+    'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well, as one of the world’s most innovative companies. And now we are proud to present our bike for the future:
       FastSecurity, FS. <br>All ready intrigued? Sign up to our newsletter and get access to the latest news and our product folder container exclusive content.',
     'button' => 'SIGN UP TO NEWSLETTER',
   ],

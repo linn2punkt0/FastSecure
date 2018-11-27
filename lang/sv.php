@@ -3,10 +3,17 @@
 // Fix swedish translation.
 
 $Content = [
+
+  'firstContent' =>
+  [
+    'title' => 'Bli piloten',
+    'scroll' => 'SCROLLA NER'
+  ],
+
   'headerContent' =>
   [
     'title' => 'Var speciell',
-    'scroll' => 'Scrolla ner'
+    // 'scroll' => 'Scrolla ner'
   ],
 
   'secondContent' =>
