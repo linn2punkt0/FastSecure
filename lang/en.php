@@ -1,7 +1,7 @@
 <?php
 
 $Content = [
-  
+
   'firstContent' =>
   [
     'title' => 'Become the pilot',

@@ -2,13 +2,28 @@
 
 require __DIR__."/header.php";
  ?>
+
 <div class="content">
-    <div class="first-page">
-    <!-- implement 'scroll down' button below-->
-        <div class="scroll-down">
-            <?=trans('headerContent','scroll')?>
+
+  <!-- Fade in text block start  -->
+  <section class="content">
+    <ul>
+      <li>
+        <div class="right">
+            <div class="first-page">
+              <div class="headline">
+                <h2><?=trans('firstContent', 'title')?></h2>
+              </div>
+            </div>
         </div>
-    </div>
+      </li>
+    </ul>
+  </section>
+            <!-- implement 'scroll down' button below-->
+                <div class="scroll-down">
+                    <?=trans('firstContent','scroll')?>
+                </div>
+
     <!-- Fade in text block start  -->
     <section class="content">
       <ul>
