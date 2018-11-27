@@ -16,7 +16,7 @@ require __DIR__."/header.php";
           <div class="right">
             <div class="second-page">
                 <div class="headline">
-                  <?=trans('headerContent', 'title')?>
+                  <h2><?=trans('headerContent', 'title')?></h2>
                 </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ require __DIR__."/header.php";
                   <li>
                     <div class="right">
                 <div class="headline">
-                    <?=trans('secondContent', 'title')?>
+                    <h2><?=trans('secondContent', 'title')?></h2>
                 </div>
             </div>
           </div>
