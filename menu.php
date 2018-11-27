@@ -1,11 +1,4 @@
 <div class="menu">
-    <nav>
-        <div class="extra"></div>
-        <img src="./FS_logo/SVG/logo_vit.svg" alt="logo">
-        <form action="index.php" method="get">
-            <button type="submit" name="page" value="index"><img src="" alt="exit"></button>
-        </form>
-    </nav>
     <div class="shortcuts">
         <a href=""><?=trans('home','title')?></a>
         <a href=""><?=trans('performance','title')?></a>

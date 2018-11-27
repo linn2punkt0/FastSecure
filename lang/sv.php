@@ -31,14 +31,14 @@ $Content = [
 
   'adventure'=>
   [
-    'title' => 'Exklusivitet',
+    'title' => 'Äventyr',
     'content' => 'With a production of only 500, FS1.0 will be one of the most exclusive and rare motorcycles in the world.',
     'button' => 'Läs mer',
   ],
 
   'sustainable'=>
   [
-    'title' => 'Merchandise',
+    'title' => 'Hållbar',
     'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well.',
     'button' => 'Läs mer',
   ],
@@ -70,4 +70,11 @@ $Content = [
     'email' => 'Mail: info@saabgroup.com',
     'back' => 'Upp'
   ],
+
+  'legal' =>
+  [
+    'privacy' => 'PRIVACY',
+    'legal' => 'LEGAL',
+    'contact' => 'CONTACT US'
+  ]
 ];

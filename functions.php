@@ -5,6 +5,7 @@ function trans($key1, $key2) {
   if(isset($_GET['lang'])){
     $lang = $_GET['lang'];
   }
+  // Cookie fungerar ej?
   elseif(isset($_COOKIE['lang'])){
     $lang = $_COOKIE['lang'];
   }
@@ -17,8 +18,3 @@ function trans($key1, $key2) {
 
   return $Content[$key1][$key2];
 };
-
-function set_url( $url )
-{
-    echo("<script>history.replaceState({},'','$url');</script>");
-}
