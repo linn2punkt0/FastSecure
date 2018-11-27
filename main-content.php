@@ -44,7 +44,6 @@ require __DIR__."/header.php";
                     <?=trans('FS1.0','title')?>
                   </div>
                 </div>
-            </div>
 
             <div class="content-box">
                 <?=trans('FS1.0','content')?>
@@ -54,8 +53,6 @@ require __DIR__."/header.php";
                 <?=trans('FS1.0','button')?>
             </div>
         </div>
-
-    </div>
     <div class="fifth-page">
       <div class="content-img"></div>
         <div class="content-wrapper">
