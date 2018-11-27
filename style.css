@@ -160,6 +160,7 @@ nav img {
 .lang {
   display: flex;
   flex-direction: row;
+  margin-bottom: 56px;
   bottom: 0;
 }
 .lang button {
