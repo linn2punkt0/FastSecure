@@ -210,6 +210,11 @@ p {
   flex-direction: column;
 }
 
+.content-box{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
 .fifth-page {
   width: 100%;
   display: flex;
@@ -224,6 +229,7 @@ p {
 .fifth-page .content-box {
   padding-top: 16px;
   margin-left: 16px;
+  margin-right: 16px;
   margin-top: 0;
 }
 
@@ -254,6 +260,7 @@ p {
 .sixth-page .content-box {
   padding-top: 16px;
   margin-left: 16px;
+  margin-right: 16px;
   margin-top: 0;
 }
 
@@ -271,6 +278,7 @@ p {
 .seventh-page .content-box {
   padding-top: 16px;
   margin-left: 16px;
+  margin-right: 16px;
   margin-top: 0;
 }
 
