@@ -17,8 +17,7 @@ function callbackFunc() {
   for (let i = 0; i < items.length; i++) {
     if (isElementInViewport(items[i])) {
       items[i].classList.add("in-view");
-    }
-    else{
+    } else {
       items[i].classList.remove("in-view");
     }
   }
@@ -27,23 +26,30 @@ function callbackFunc() {
 window.addEventListener("load", callbackFunc);
 window.addEventListener("scroll", callbackFunc);
 
+let menuIsOpen = false;
+
 // Burger-animation
 $(document).ready(function() {
   $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function() {
     $(this).toggleClass("open");
     console.log("click");
     $(".menu-selector").toggleClass("display");
+    menuIsOpen = !menuIsOpen;
   });
 });
 
 // Navbar visible when scrolling up
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
+  if (menuIsOpen) {
     document.querySelector(".navbar").style.top = "0";
   } else {
-    document.querySelector(".navbar").style.top = "-50px";
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.querySelector(".navbar").style.top = "0";
+    } else {
+      document.querySelector(".navbar").style.top = "-56px";
+    }
+    prevScrollpos = currentScrollPos;
   }
-  prevScrollpos = currentScrollPos;
 };
