@@ -657,9 +657,6 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  nav .button {
-    width: 24px;
-  }
   nav .extra {
     width: 24pt;
   }
@@ -801,7 +798,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-image: url("images/Desktop/Img_1_Desktop.png");
+    background-size: cover;
   }
   .scroll-down {
     width: 100%;
@@ -814,11 +812,14 @@
     height: 100vh;
     justify-content: flex-start;
     align-items: flex-start;
+    background-image: url("images/Desktop/Img_2_Desktop.png");
+    background-size: cover;
   }
   .third-page {
     width: 100%;
     height: 100vh;
-    background-color: grey;
+    background-image: url("images/Desktop/Img_3_Desktop.png");
+    background-size: cover;
   }
   .fourth-page {
     width: 100%;
@@ -993,12 +994,12 @@
     margin-left: 10px;
   }
 
-  .infoimg{
-  width: 100vw;
-  height: 556px;
-  margin-top: 96px;
-  background-color: grey;
-}
+  .infoimg {
+    width: 100vw;
+    height: 556px;
+    margin-top: 96px;
+    background-color: grey;
+  }
 
   .infotext {
     width: 100vw;
