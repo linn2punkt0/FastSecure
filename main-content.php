@@ -6,7 +6,7 @@ require __DIR__."/header.php";
 <div class="content">
 
   <!-- Second first page start  -->
-        <div class="first-page">
+        <div class="first-page" id="first-page">
           <!-- Fade in text block start  -->
             <section class="content">
               <ul>
@@ -32,7 +32,7 @@ require __DIR__."/header.php";
 
 
 <!-- Second page start  -->
-      <div class="second-page">
+      <div class="second-page" id="second-page">
         <!-- Fade in text block start  -->
           <section class="content">
             <ul>
@@ -49,7 +49,7 @@ require __DIR__."/header.php";
 <!-- //Second page start  -->
 
 <!-- Third page start  -->
-          <div class="third-page">
+          <div class="third-page" id="third-page">
             <!-- Fade in text block start  -->
               <section class="content">
                 <ul>
@@ -66,7 +66,7 @@ require __DIR__."/header.php";
 <!-- //Third page end  -->
 
 <!-- Fourth page start  -->
-            <div class="fourth-page">
+            <div class="fourth-page" id="fourth-page">
                 <div class="content-wrapper-fs">
                   <div class="headline-text">
                     <?=trans('FS1.0','title')?>
@@ -83,7 +83,7 @@ require __DIR__."/header.php";
         </div>
 <!-- //Fourth page start  -->
 
-    <div class="fifth-page">
+    <div class="fifth-page" id="fifth-page">
       <div class="content-img"></div>
         <div class="content-wrapper">
             <div class="headline-text">
@@ -98,7 +98,7 @@ require __DIR__."/header.php";
         </div>
         <div class="content-img-performance"></div>
     </div>
-    <div class="sixth-page">
+    <div class="sixth-page" id="sixth-page">
         <div class="content-wrapper">
             <div class="headline-text">
                 <?=trans('adventure','title')?>
@@ -112,7 +112,7 @@ require __DIR__."/header.php";
         </div>
         <div class="content-img-adventure"></div>
     </div>
-  <div class="seventh-page">
+  <div class="seventh-page" id="seventh-page">
     <div class="content-wrapper">
       <div class="headline-text">
         <?=trans('sustainable','title')?>
