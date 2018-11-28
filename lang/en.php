@@ -47,6 +47,12 @@ $Content = [
     'content' =>  'As the sports bike of the future FS 1.0 is our vision of pure e-mobility in the form of an all-electric sports bike for an active and sustainable lifestyle. ',
     'button' => 'Read more',
   ],
+  
+  'sound' =>
+  [
+    'title' => 'Sound of the future',
+    'content' => 'Clarity, excitement, precision – but you already know that. With our attention to detail, we have created headphones for active drivers who wish to shape their own environment.'
+  ],
 
   'newsletter'=>
   [

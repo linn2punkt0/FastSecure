@@ -49,6 +49,12 @@ $Content = [
     'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well.',
     'button' => 'Läs mer',
   ],
+  
+  'sound' =>
+  [
+    'title' => 'Sound of the future',
+    'content' => 'Clarity, excitement, precision – but you already know that. With our attention to detail, we have created headphones for active drivers who wish to shape their own environment.'
+  ],
 
   'newsletter'=>
   [
