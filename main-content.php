@@ -124,5 +124,6 @@ require __DIR__."/header.php";
         <p><?=trans('sustainable','button')?> ></p>
       </div>
     </div>
+    <div class="content-img-sustainable"></div>
   </div>
 </div>
