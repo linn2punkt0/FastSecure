@@ -865,15 +865,15 @@
     height: 556pt;
     grid-column: 1 / 3;
     margin-bottom: 96pt;
-    background-image: url("images/Desktop/Img_7.jpg");
+    background-image: url("images/Desktop/Img_4.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
   }
   .fifth-page .content-img-performance {
     height: 556pt;
     background-image: url("images/Desktop/Img_5.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
   }
   .fifth-page .content-wrapper {
     margin-top: 90pt;
@@ -921,7 +921,7 @@
     height: 556pt;
     background-image: url("images/Desktop/Img_6.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
   }
   .sixth-page .headline-text {
     font-size: 48px;
@@ -951,7 +951,7 @@
     height: 556pt;
     background-image: url("images/Desktop/Img_7.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
   }
   .seventh-page .content-wrapper {
     margin-top: 170px;
@@ -1007,7 +1007,9 @@
     width: 100vw;
     height: 556px;
     margin-top: 96px;
-    background-color: grey;
+    background-image: url("images/Desktop/Img_8.jpg");
+    background-size: cover;
+    background-position: center;
   }
 
   .infotext {
