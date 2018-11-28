@@ -938,14 +938,6 @@
   .seventh-page .read-more-button {
     margin-left: 0;
   }
-  .infoimg{
-  width: 100vw;
-  height: 556pt;
-  margin-top: 96px;
-  background-color: grey;
-
-}
-
   .headline {
     width: 420px;
     padding-top: 96px;
@@ -988,11 +980,19 @@
     margin-left: 10px;
   }
 
-  .infoimg {
-    height: 280px;
-    background-color: grey;
-  }
+  .infoimg{
+  width: 100vw;
+  height: 556px;
+  margin-top: 96px;
+  background-color: grey;
+}
 
+  .infotext {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .infotext h1 {
     font-size: 32px;
     margin-top: 36px;
