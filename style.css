@@ -801,7 +801,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url("images/Desktop/Img_1_Desktop.png");
+    background-image: url("images/Desktop/Img_1.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -816,14 +816,14 @@
     height: 100vh;
     justify-content: flex-start;
     align-items: flex-start;
-    background-image: url("images/Desktop/Img_2_Desktop.png");
+    background-image: url("images/Desktop/Img_2.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
   .third-page {
     width: 100%;
     height: 100vh;
-    background-image: url("images/Desktop/Img_3_Desktop.png");
+    background-image: url("images/Desktop/Img_3.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -863,13 +863,17 @@
   .fifth-page .content-img {
     width: 100%;
     height: 556pt;
-    background-color: grey;
     grid-column: 1 / 3;
     margin-bottom: 96pt;
+    background-image: url("images/Desktop/Img_7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .fifth-page .content-img-performance {
     height: 556pt;
-    background-color: grey;
+    background-image: url("images/Desktop/Img_5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .fifth-page .content-wrapper {
     margin-top: 90pt;
@@ -915,7 +919,9 @@
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     height: 556pt;
-    background-color: grey;
+    background-image: url("images/Desktop/Img_6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .sixth-page .headline-text {
     font-size: 48px;
@@ -942,8 +948,10 @@
     font-size: 48px;
   }
   .seventh-page .content-img-sustainable {
-    background-color: grey;
     height: 556pt;
+    background-image: url("images/Desktop/Img_7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .seventh-page .content-wrapper {
     margin-top: 170px;
@@ -1047,9 +1055,9 @@
   ::-webkit-input-placeholder {
     color: white;
   }
-  .col-lg-6{
-    width: 56%! important;
-    flex-basis: 56%! important;
+  .col-lg-6 {
+    width: 56% !important;
+    flex-basis: 56% !important;
   }
   .name {
     width: 100%;
@@ -1085,9 +1093,10 @@
   }
 }
 
-@media (min-width: 992px){
-.col-lg-6 {
+@media (min-width: 992px) {
+  .col-lg-6 {
     -ms-flex: 0 0 56%;
     flex: 0 0 56%;
     max-width: 56%;
-}}
+  }
+}
