@@ -7,7 +7,7 @@
     <div class="contact">
       <h2 class="contactinfoh2"> <?= trans('companyContact', 'contact'); ?> </h2>
 
-      <p class="contactinfo"><?= trans('companyContact', 'email')?></p>
+      <p class="contactinfo contactmail"><?= trans('companyContact', 'email')?></p>
       <p class="contactinfo"><?= trans('companyContact', 'phone')?></p>
       <p class="visit"><?= trans('companyContact', 'visitingAdress')?></p>
 
@@ -19,7 +19,7 @@
 
     <div class="footermenu">
 
-        <a href="#top"><p class="to-top"> <?=trans('companyContact','back')?> ⇧</p></a>
+        <a href="#top" class="to-top"><p> <?=trans('companyContact','back')?> ⇧</p></a>
       <div class="footermenu-content"
       <a href=""><?=trans('home','title')?></a>
       <a href=""><?=trans('performance','title')?></a>
