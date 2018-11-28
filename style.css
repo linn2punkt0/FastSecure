@@ -1157,10 +1157,10 @@
   }
   .socialmedia {
     margin-top: 0;
-    margin-left: 13%;
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    grid-column: 3/5;
+    grid-column: 3/4;
     grid-row: 1/2;
   }
   .socialmedia-content {
@@ -1176,7 +1176,7 @@
   .copyright {
     margin-top: 0;
     grid-column: 1/5;
-    grid-row: 2/2;
+    grid-row: 2/3;
   }
   .copyright p {
   font-size: 14px;
@@ -1196,17 +1196,16 @@
     font-weight: 700;
   }
   .wordmark {
-    margin-top: 24px;
-    grid-column: 3/5;
-    grid-row: 2/2;
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
   }
 
   .wordmark h3 {
-    margin-left: 4px;
     margin-right: 4px;
-    margin-left: 22.6%;
     display: flex;
-    flex-direction: row;
     font-size: 12px;
   }
 }
