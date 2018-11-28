@@ -186,7 +186,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-image: url("images/Mobile/Img_1_Mobile.png");
+    background-size: cover;
   }
 
   .scroll-down {
@@ -202,12 +203,15 @@
     height: 100vh;
     justify-content: flex-start;
     align-items: flex-start;
+    background-image: url("images/Mobile/Img_2_Mobile.png");
+    background-size: cover;
   }
 
   .third-page {
     width: 100%;
     height: 100vh;
-    background-color: grey;
+    background-image: url("images/Mobile/Img_3_Mobile.png");
+    background-size: cover;
   }
 
   .fourth-page {
@@ -355,27 +359,29 @@
   .content-img {
     width: 100%;
     height: 280px;
-    background-color: grey;
+    background-image: url("images/Mobile/Img_4.jpg");
+    background-size: cover;
   }
 
   .content-img-performance {
     width: 100%;
     height: 280px;
-    background-color: grey;
+    background-image: url("images/Mobile/Img_5.jpg");
+    background-size: cover;
   }
 
   .content-img-adventure {
     width: 100%;
     height: 250px;
-    background-color: grey;
+    background-image: url("images/Mobile/Img_6.jpg");
+    background-size: cover;
   }
 
-  .content-img-sustainable {
+  /* .content-img-sustainable {
     width: 100%;
     height: 250px;
-    background-color: grey;
     margin-bottom: 20px;
-  }
+  } */
 
   .subscribe-email {
     width: 90%;
@@ -480,7 +486,8 @@
 
   .infoimg {
     height: 280px;
-    background-color: grey;
+    background-image: url("images/Mobile/Img_7.jpg");
+    background-size: cover;
   }
 
   .infotext h1 {
