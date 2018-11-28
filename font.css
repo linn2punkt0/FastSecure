@@ -2,26 +2,26 @@
   font-family: "AktivGrotesk";
   font-weight: 700;
   font-style: normal;
-  src: url("./Font/AktivGrotesk-Bold.otf") format("opentype");
+  src: url("./Font/AktivGrotesk-Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "AktivGrotesk";
   font-weight: 300;
   font-style: normal;
-  src: url("./Font/AktivGrotesk-Light.otf") format("opentype");
+  src: url("./Font/AktivGrotesk-Light.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "AktivGrotesk";
   font-weight: 500;
   font-style: normal;
-  src: url("./Font/AktivGrotesk-Medium.otf") format("opentype");
+  src: url("./Font/AktivGrotesk-Medium.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "AktivGrotesk";
   font-weight: 400;
   font-style: normal;
-  src: url("./Font/AktivGrotesk-Regular.otf") format("opentype");
+  src: url("./Font/AktivGrotesk-Regular.woff2") format("woff2");
 }
