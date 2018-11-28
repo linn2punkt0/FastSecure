@@ -996,16 +996,20 @@
   .infotext {
     width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
   .infotext h1 {
-    font-size: 32px;
+    width: 56%;
+    font-size: 48px;
     margin-top: 36px;
     margin-left: 16px;
+    font-weight: 700;
   }
   .infotext p {
-    font-size: 16px;
+    width: 56%;
+    font-size: 18px;
     margin-top: 16px;
     margin-left: 16px;
     line-height: 30px;
@@ -1034,29 +1038,36 @@
   ::-webkit-input-placeholder {
     color: white;
   }
+  .col-lg-6{
+    width: 56%! important;
+    flex-basis: 56%! important;
+  }
   .name {
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 45px;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
   }
   .email {
-    width: 338px;
+    width: 100%;
     border-bottom: 1px solid white;
   }
   .firstname {
-    width: 164px;
-    margin-right: 10px;
+    width: 48%;
+    margin-right: 4%;
     border-bottom: 1px solid white;
   }
   .lastname {
-    width: 164px;
+    width: 48%;
     border-bottom: 1px solid white;
   }
   .btn-primary {
     width: 241px;
     height: 36px;
-    margin-top: 40px;
+    margin-top: 148px;
     margin: auto;
     background-color: black;
     border-color: white;
@@ -1064,3 +1075,10 @@
     display: block;
   }
 }
+
+@media (min-width: 992px){
+.col-lg-6 {
+    -ms-flex: 0 0 56%;
+    flex: 0 0 56%;
+    max-width: 56%;
+}}
