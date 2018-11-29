@@ -924,7 +924,7 @@
     display: inline-block;
     border-bottom: 1px solid white;
   }
-  
+
   .pil {
     background-repeat: no-repeat;
     width: 10px;
@@ -1245,8 +1245,9 @@
     font-weight: 700;
   }
   .footermenu-content a {
-    padding-top: 15px;
+    padding-bottom: 15px;
     color: white;
+    text-transform: uppercase;
   }
   .socialmedia {
     margin-top: 0;
@@ -1261,9 +1262,23 @@
     height: 35px;
     margin-right: 12px;
     margin-left: 12px;
-    background-color: grey;
     font-size: 16px;
     font-weight: 700;
+  }
+  .fb {
+    background-image: url("iconer/iconmonstr-facebook-1.svg");
+  }
+  .in {
+    background-image: url("iconer/iconmonstr-instagram-11.svg");
+  }
+  .li {
+    background-image: url("iconer/iconmonstr-linkedin-1.svg");
+  }
+  .tw {
+    background-image: url("iconer/iconmonstr-twitter-1.svg");
+  }
+  .yt {
+    background-image: url("iconer/iconmonstr-youtube-6.svg");
   }
 
   .copyright {
@@ -1285,8 +1300,12 @@
   .legal h3 {
     margin-left: 4px;
     margin-right: 4px;
+    padding-bottom: 2px;
     font-size: 16px;
     font-weight: 700;
+  }
+  .leagal-line{
+    display: none;
   }
   .wordmark {
     margin-top: 26px;
