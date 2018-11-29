@@ -58,12 +58,6 @@
     border: none;
   }
 
-  #nav-icon1:focus {
-    outline: 0;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    -webkit-tap-highlight-color: transparent;
-  }
-
   #nav-icon1 span {
     display: block;
     position: absolute;
@@ -371,6 +365,7 @@
     font-size: 32px;
     padding-top: 96px;
     margin-left: 64px;
+    font-weight: 700;
   }
 
   .content-box {
@@ -391,12 +386,13 @@
   }
 
   .pil-ner {
-    background-repeat: no-repeat;
-    width: 10px;
-    height: 10px;
-    margin-left: 16px;
-    align-self: center;
-  }
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  margin-left: 16px;
+  align-self: center;
+}
+
 
   .content-img {
     width: 100%;
@@ -590,24 +586,15 @@
     width: 164px;
     border-bottom: 1px solid white;
   }
-  .sign-up {
-    height: 40px;
-    padding: 8px;
+  .btn-primary {
+    width: 241px;
+    height: 36px;
     margin-top: 40px;
-    margin-bottom: 64px;
-    border: 1px solid white;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    font-weight: bold;
-  }
-
-  .pil-hoger-bottom {
-    background-repeat: no-repeat;
-    width: 10px;
-    height: 10px;
-    margin-left: 16px;
-    align-self: center;
+    margin: auto;
+    background-color: black;
+    border-color: white;
+    border-radius: 0;
+    display: block;
   }
 
   /* footer menu start */
@@ -626,14 +613,6 @@
     text-decoration-color: white;
     color: white;
   }
-
-  .arrow {
-    background-repeat: no-repeat;
-    width: 12px;
-    height: 12px;
-    margin-left: 14px;
-  }
-
   .footermenu-content {
     padding-top: 46px;
     display: flex;
@@ -785,12 +764,6 @@
     cursor: pointer;
     background-color: black;
     border: none;
-  }
-
-  #nav-icon1:focus {
-    outline: 0;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    -webkit-tap-highlight-color: transparent;
   }
 
   #nav-icon1 span {
@@ -955,22 +928,23 @@
     color: black;
   }
 
-  .pil-ner {
-    background-repeat: no-repeat;
-    width: 15px;
-    height: 15px;
-    margin-left: 16px;
-    align-self: center;
-  }
 
-  .newsletter-button .pil-ner {
-    transition: all 0.1s ease-in-out;
-  }
+  .pil-ner {
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  margin-left: 16px;
+  align-self: center;
+}
+
+.newsletter-button .pil-ner{
+transition: all 0.1s ease-in-out;
+}
 
   .newsletter-button:hover .pil-ner {
-    transform: translateY(4px);
-    color: black;
-  }
+  transform: translateY(4px);
+  color: black;
+}
 
   .fifth-page {
     width: 100%;
@@ -1039,21 +1013,21 @@
     margin-left: 7.59px;
   }
 
-  .pil.active {
-    transform: translateX(16px);
-    transition: all 0.1s ease-in-out;
+  .pil.active{
+   transform: translateX(16px);
+   transition: all 0.1s ease-in-out;
   }
 
   .arrow {
-    background-repeat: no-repeat;
-    width: 12px;
-    height: 12px;
-    margin-left: 14px;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  margin-left: 14px;
   }
 
   .arrow.move {
-    transform: translateY(-8px);
-    transition: all 0.1s ease-in-out;
+  transform: translateY(-8px);
+  transition: all 0.1s ease-in-out;
   }
 
   .sixth-page {
@@ -1236,11 +1210,12 @@
     grid-column: 1/2;
     grid-row: 2/2;
   }
-  .contactmail {
+  .contactmail{
     margin-left: 0;
     margin-top: 30px;
     grid-column: 1/2;
     grid-row: 2/2;
+
   }
 
   h2.contactinfoh2 {
@@ -1308,11 +1283,11 @@
     opacity: 1 !important;
     color: rgba(255, 255, 255, 1) !important;
   }
-  ::placeholder {
-    background-color: black;
-    color: white !important;
-    opacity: 1 !important;
-  }
+  ::placeholder{
+  background-color: black;
+  color: white !important;
+  opacity: 1 !important;
+}
   ::-webkit-input-placeholder {
     color: white;
   }
@@ -1342,48 +1317,23 @@
     width: 48%;
     border-bottom: 1px solid white;
   }
-  .sign-up {
-    height: 40px;
-    padding: 8px;
-    margin-top: 20px;
-    margin-bottom: 64px;
-    border: 1px solid white;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    font-weight: bold;
+  .btn-primary {
+    width: 241px;
+    height: 36px;
+    margin-top: 148px;
+    margin: auto;
+    background-color: black;
+    border-color: white;
+    border-radius: 0;
+    display: block;
   }
-
-  .sign-up:hover {
-    background-color: white;
-    color: black;
-  }
-
-  .pil-hoger-bottom {
-    background-repeat: no-repeat;
-    width: 12px;
-    height: 12px;
-    margin-left: 16px;
-    align-self: center;
-    justify-content: center;
-  }
-
-  .sign-up .pil-hoger-bottom {
-    transition: all 0.1s ease-in-out;
-  }
-
-  .sign-up:hover .pil-hoger-bottom {
-    transform: translateX(8px);
-    color: black;
-  }
-
   /* footer menu start */
   .footermenu {
     width: 80vw;
     margin-left: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 2fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
   }
   .to-top {
     text-align: center;
@@ -1452,8 +1402,8 @@
     grid-row: 2/3;
   }
   .copyright p {
-    font-size: 14px;
-    font-weight: 700;
+  font-size: 14px;
+  font-weight: 700;
     margin-bottom: 0;
     margin-top: 24px;
   }
@@ -1469,7 +1419,7 @@
     font-size: 16px;
     font-weight: 700;
   }
-  .leagal-line {
+  .leagal-line{
     display: none;
   }
   .wordmark {
