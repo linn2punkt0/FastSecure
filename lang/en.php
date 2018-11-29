@@ -79,7 +79,7 @@ $Content = [
     'phone' => 'Phone: +44 (0)203 005 0480',
     'visitingAdress' => 'Visiting adress: 3rd Floor, 2 Savoy Court, Strand, London, WC2R 0EZ',
     'email' => 'E-mail: saabtechnologiesuk@saabgroup.com',
-    'back' => 'Back to top'
+    'back' => 'BACK TO THE TOP'
   ],
 
   'legal' =>
