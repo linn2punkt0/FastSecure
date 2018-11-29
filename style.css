@@ -596,8 +596,8 @@
 
   .pil-hoger-bottom {
     background-repeat: no-repeat;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     margin-left: 16px;
     align-self: center;
   }
@@ -618,6 +618,14 @@
     text-decoration-color: white;
     color: white;
   }
+
+  .arrow {
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  margin-left: 14px;
+  }
+  
   .footermenu-content {
     padding-top: 46px;
     display: flex;
