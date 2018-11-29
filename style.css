@@ -609,7 +609,21 @@
     height: 35px;
     margin-right: 12px;
     margin-left: 12px;
-    background-color: grey;
+  }
+  .fb {
+    background-image: url("iconer/iconmonstr-facebook-1.svg");
+  }
+  .in {
+    background-image: url("iconer/iconmonstr-instagram-11.svg");
+  }
+  .li {
+    background-image: url("iconer/iconmonstr-linkedin-1.svg");
+  }
+  .tw {
+    background-image: url("iconer/iconmonstr-twitter-1.svg");
+  }
+  .yt {
+    background-image: url("iconer/iconmonstr-youtube-6.svg");
   }
 
   .copyright {
@@ -647,6 +661,8 @@
   body {
     background-color: black;
     color: white;
+    scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
   }
 
   /* Navbar */
@@ -825,12 +841,13 @@
     background-image: url("images/Desktop/Img_1.png");
     background-size: cover;
     background-repeat: no-repeat;
+    scroll-snap-align: start;
   }
   .scroll-down {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 32%;
+    margin-top: 500px;
   }
   .second-page {
     width: 100%;
@@ -840,6 +857,7 @@
     background-image: url("images/Desktop/Img_2.png");
     background-size: cover;
     background-repeat: no-repeat;
+    scroll-snap-align: start;
   }
   .third-page {
     width: 100%;
@@ -847,6 +865,7 @@
     background-image: url("images/Desktop/Img_3.png");
     background-size: cover;
     background-repeat: no-repeat;
+    scroll-snap-align: start;
   }
   .fourth-page {
     width: 100%;
@@ -854,6 +873,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    scroll-snap-align: start;
   }
   .content-wrapper-fs {
     margin-top: 90pt;
@@ -903,6 +923,7 @@ transition: all 0.1s ease-in-out;
 
   .fifth-page {
     width: 100%;
+    margin-bottom: 96px;
     display: grid;
     /* grid-template-rows: 1fr 1fr; */
     grid-template-columns: 1fr 1fr;
@@ -988,6 +1009,8 @@ transition: all 0.1s ease-in-out;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    scroll-snap-align: start;
+    margin-bottom: 96px;
   }
   .sixth-page .content-wrapper {
     padding-top: 144px;
@@ -1023,6 +1046,7 @@ transition: all 0.1s ease-in-out;
     grid-template-columns: 1fr 1fr;
     flex-direction: column;
     justify-content: space-between;
+    scroll-snap-align: start;
   }
   .seventh-page .headline-text {
     font-size: 48pt;
@@ -1196,18 +1220,18 @@ transition: all 0.1s ease-in-out;
   }
   .form-control {
     padding: 0;
-    background-color: black;
+    background-color: black !important;
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: white !important;
     border: none;
-    opacity: 1;
-    color: rgba(255, 255, 255, 1);
+    opacity: 1 !important;
+    color: rgba(255, 255, 255, 1) !important;
   }
-  /* ::placeholder{
+  ::placeholder{
   background-color: black;
-  color: white;
-  opacity: 1;
-} */
+  color: white !important;
+  opacity: 1 !important;
+}
   ::-webkit-input-placeholder {
     color: white;
   }
@@ -1280,8 +1304,9 @@ transition: all 0.1s ease-in-out;
     font-weight: 700;
   }
   .footermenu-content a {
-    padding-top: 15px;
+    padding-bottom: 15px;
     color: white;
+    text-transform: uppercase;
   }
   .socialmedia {
     margin-top: 0;
@@ -1296,9 +1321,23 @@ transition: all 0.1s ease-in-out;
     height: 35px;
     margin-right: 12px;
     margin-left: 12px;
-    background-color: grey;
     font-size: 16px;
     font-weight: 700;
+  }
+  .fb {
+    background-image: url("iconer/iconmonstr-facebook-1.svg");
+  }
+  .in {
+    background-image: url("iconer/iconmonstr-instagram-11.svg");
+  }
+  .li {
+    background-image: url("iconer/iconmonstr-linkedin-1.svg");
+  }
+  .tw {
+    background-image: url("iconer/iconmonstr-twitter-1.svg");
+  }
+  .yt {
+    background-image: url("iconer/iconmonstr-youtube-6.svg");
   }
 
   .copyright {
@@ -1320,8 +1359,12 @@ transition: all 0.1s ease-in-out;
   .legal h3 {
     margin-left: 4px;
     margin-right: 4px;
+    padding-bottom: 2px;
     font-size: 16px;
     font-weight: 700;
+  }
+  .leagal-line{
+    display: none;
   }
   .wordmark {
     margin-top: 26px;

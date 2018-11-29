@@ -17,27 +17,27 @@
 
 
 
-    <div class="footermenu">
+    <div class="footermenu" id="footer">
 
         <a href="#top" class="to-top"><p> <?=trans('companyContact','back')?><img class="arrow" src="iconer/pil-upp.svg"></p></a>
-      <div class="footermenu-content"
-      <a href=""><?=trans('home','title')?></a>
-      <a href=""><?=trans('performance','title')?></a>
-      <a href=""><?=trans('adventure','title')?></a>
-      <a href=""><?=trans('sustainable','title')?></a>
+      <div class="footermenu-content">
+      <a href="#first-page"><?=trans('home','title')?></a>
+      <a href="#second-page"><?=trans('performance','title')?></a>
+      <a href="#third-page"><?=trans('adventure','title')?></a>
+      <a href="#seventh-page"><?=trans('sustainable','title')?></a>
       <a href=""><?=trans('companyContact','contact')?></a>
       </div>
 
         <div class="socialmedia">
-          <div class="socialmedia-content">
+          <div class="socialmedia-content fb">
           </div>
-          <div class="socialmedia-content">
+          <div class="socialmedia-content in">
           </div>
-          <div class="socialmedia-content">
+          <div class="socialmedia-content li">
           </div>
-          <div class="socialmedia-content">
+          <div class="socialmedia-content tw">
           </div>
-          <div class="socialmedia-content">
+          <div class="socialmedia-content yt">
           </div>
         </div>
 
@@ -46,8 +46,8 @@
         </div>
 
         <div class="legal">
-          <h3><?=trans('legal','privacy')?><h3>|
-          <h3><?=trans('legal','legal')?><h3>|
+          <h3><?=trans('legal','privacy')?><h3><div class="leagal-line">|</div>
+          <h3><?=trans('legal','legal')?><h3><div class="leagal-line">|</div>
           <h3><?=trans('legal','contact')?><h3>
         </div>
         <div class="wordmark">

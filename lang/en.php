@@ -51,7 +51,8 @@ $Content = [
   'sound' =>
   [
     'title' => 'Sound of the future',
-    'content' => 'Clarity, excitement, precision – but you already know that. With our attention to detail, we have created headphones for active drivers who wish to shape their own environment.'
+    'content' => 'Clarity, excitement, precision – but you already know that. With our attention to detail, we have created headphones for active drivers who wish to shape their own environment.',
+    'button' => 'READ MORE',
   ],
 
   'newsletter'=>
@@ -87,5 +88,11 @@ $Content = [
     'privacy' => 'PRIVACY',
     'legal' => 'LEGAL',
     'contact' => 'CONTACT US'
+  ],
+  'thank you' =>
+  [
+    'title' => 'Thank you',
+    'content' => 'Thank you for signing up, we look forward to sharing our progress with you in the furture. The product folder has now been sent your email. ',
+    'button' => 'Close'
   ]
 ];

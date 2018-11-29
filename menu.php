@@ -1,10 +1,10 @@
 <div class="menu">
     <div class="shortcuts">
-        <a href=""><?=trans('home','title')?></a>
-        <a href=""><?=trans('performance','title')?></a>
-        <a href=""><?=trans('adventure','title')?></a>
-        <a href=""><?=trans('sustainable','title')?></a>
-        <a href=""><?=trans('companyContact','contact')?></a>
+        <a href="#first-page"><?=trans('home','title')?></a>
+        <a href="#second-page"><?=trans('performance','title')?></a>
+        <a href="#third-page"><?=trans('adventure','title')?></a>
+        <a href="#seventh-page"><?=trans('sustainable','title')?></a>
+        <a href="#footer"><?=trans('companyContact','contact')?></a>
     </div>
     <form class="lang" action="index.php" method="get">
         <button type="submit" name="lang" value="sv">SWEDISH</button>
