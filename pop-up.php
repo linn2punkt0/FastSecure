@@ -4,7 +4,7 @@
 <style>
 
 .pop-up {
-    width: 100%;
+    width: 50%;
     height: 0;
     top: 56px;
     background-color: black;
@@ -12,14 +12,14 @@
     z-index: 500;
     pointer-events: none;
     transition: 0.5s;
-    opacity:0;
+    opacity: 0;
+    border: solid, 1px, white;
   }
 
 
   .pop-up .display {
-    width: 100%;
-    height: 50vh;
     pointer-events: all;
+    opacity: 1;
   }
 
 </style>
