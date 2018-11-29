@@ -183,6 +183,7 @@
   }
 
   /* Main content */
+  /* Mobile: */
   p {
     font-size: 20px;
   }
@@ -637,7 +638,6 @@
     justify-content: center;
   }
 
-
   .footermenu-content {
     padding-top: 46px;
     display: flex;
@@ -888,6 +888,12 @@
     border: solid 1px #1d1d1d;
     font-weight: 700;
   }
+  .lang button:hover{
+    background-color: white;
+    color: black;
+  }
+
+  /* Desktop */
 
   .first-page {
     width: 100%;
@@ -1255,10 +1261,12 @@
     font-size: 48px;
     font-weight: 700;
   }
+
   p {
     font-size: 16px;
     letter-spacing: 1px;
   }
+
   .visit {
     margin-top: 0;
     margin-left: 0;
