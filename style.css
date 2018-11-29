@@ -357,6 +357,11 @@
     display: flex;
     align-self: center;
     justify-content: center;
+    font-weight: bold;
+  }
+
+  .newsletter-button:hover {
+    background-color: white;
   }
 
   .content-img {
@@ -924,7 +929,7 @@
     display: inline-block;
     border-bottom: 1px solid white;
   }
-  
+
   .pil {
     background-repeat: no-repeat;
     width: 10px;
