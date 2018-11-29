@@ -934,7 +934,7 @@
 
   .pil.active{
    transform: translateX(16px);
-
+   transition: all 0.1s ease-in-out;
   }
 
   .sixth-page {
