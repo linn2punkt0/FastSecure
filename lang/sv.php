@@ -24,43 +24,44 @@ $Content = [
   'FS1.0'=>
   [
     'title' => 'FS1.0',
-    'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well, as one of the world’s most innovative companies. And now we are proud to present our car for the future: FastSecurity, FS.',
+    'content' => 'Många tror fortfarande att Saab gör bilar, och det stämmer. Men vi är även påväg in i framtiden. Saab är levande och väl, och som ett av världens mest innovativa företag. Och nu är vi stolta att presentera vår motorcykel för framtiden: FastSecurity, FS.
+    Är du redan fascinerad? Anmäl ditt intresse och få tillgång till de senaste nyheterna såväl som vår produktmapp som har exklusivt innehåll om FS.',
     'button' => 'Anmäl dig till vårt nyhetsbrev',
 
   ],
 
   'performance'=>
   [
-    'title' => 'Prestanda',
-    'content' => 'With the newly developed Saab fusion-3 driveline, FS1.0 will be one of the fastest motorcycles in the world.',
+    'title' => 'Tyst prestanda',
+    'content' => 'Siffrorna talar för sig själv: 200kw (240hp) tyst prestandad tar dig från 0 till 100km / h på enbart 2 sekunder.',
     'button' => 'LÄS MER',
   ],
 
   'adventure'=>
   [
-    'title' => 'Äventyr',
-    'content' => 'With a production of only 500, FS1.0 will be one of the most exclusive and rare motorcycles in the world.',
+    'title' => 'Törsta för äventyr',
+    'content' => 'Med sin innovativa 800-volts teknik och en räckvidd på 400km är Fast Security 1.0 alltid redo när du är.',
     'button' => 'LÄS MER',
   ],
 
   'sustainable'=>
   [
     'title' => 'Hållbar',
-    'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well.',
+    'content' => 'Som framtidens motorcykel är FS1.0 vår vision av ren transport i form av en helt elektriskt motorcykel för en aktiv och hållbar livsstil.',
     'button' => 'LÄS MER',
   ],
 
   'sound' =>
   [
-    'title' => 'Sound of the future',
-    'content' => 'Clarity, excitement, precision – but you already know that. With our attention to detail, we have created headphones for active drivers who wish to shape their own environment.',
+    'title' => 'Ljudet från framtiden',
+    'content' => 'Klarhet, spänning, precision - men det vet du redan. Med vårt detaljseende har vi skapat hörlurar för aktiva förare som vill forma sin egen miljö.',
     'button' => 'LÄS MER',
   ],
 
   'newsletter'=>
   [
     'title' => 'Nyhetsbrev',
-    'content' => 'Sign up to our newsletter and getnews about the project as well as acess to our catalogue with exclusive content.',
+    'content' => 'Med FS1.0 fortfarande i utveckling har vi regelbundna framsteg att dela med dig. Registrera dig nedan och få uppdateringar varje vecka om projektet samt produktmappen som innehåller exklusivt innehåll.',
   ],
 
   'home' =>
@@ -94,7 +95,7 @@ $Content = [
   'thankYou' =>
   [
     'title' => 'Tack',
-    'content' => 'Thank you for signing up, we look forward to sharing our progress with you in the furture. The product folder has now been sent your email. ',
+    'content' => 'Tack för att du anmält dig, vi ser fram emot att dela våra framsteg med dig i framtiden. Produktmappen har nu skickats till din e-postadress.',
     'button' => 'Stäng'
   ]
 ];
