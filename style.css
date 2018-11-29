@@ -627,6 +627,17 @@
     text-decoration-color: white;
     color: white;
   }
+
+  .arrow {
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    margin-left: 16px;
+    align-self: center;
+    justify-content: center;
+  }
+
+
   .footermenu-content {
     padding-top: 46px;
     display: flex;
@@ -1383,6 +1394,15 @@
     color: white;
     grid-column: 4/5;
     grid-row: 1/2;
+  }
+
+  .pil-upp {
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    margin-left: 16px;
+    align-self: center;
+    justify-content: center;
   }
 
   a:hover {
