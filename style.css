@@ -326,6 +326,7 @@
     grid-row: 2 / 3;
   }
   .eight-page .content-img-performance {
+    background-image: url("images/Merchandise.jpg");
     grid-row: 1 / 2;
   }
   .eight-page .read-more-button {
@@ -1163,7 +1164,7 @@
   }
   .eight-page .content-img-performance {
     height: 556pt;
-    background-image: url("images/Desktop/Img_8.jpg");
+    background-image: url("images/Merchandise.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 1 / 2;
