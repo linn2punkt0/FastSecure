@@ -1035,6 +1035,36 @@
   .seventh-page .read-more-button {
     margin-left: 0;
   }
+  .eight-page {
+    width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    justify-content: space-between;
+    scroll-snap-align: start;
+  }
+  .eight-page .headline-text {
+    font-size: 48pt;
+    font-weight: 700;
+  }
+  .eight-page .content-img-performance {
+    height: 556pt;
+    background-image: url("images/Desktop/Img_8.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .eight-page .content-wrapper {
+    margin-top: 170px;
+    margin-left: 10%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }
+  .eight-page .read-more-button {
+    margin-left: 0;
+  }
 
   .headline {
     width: 420px;

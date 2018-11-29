@@ -129,4 +129,20 @@ require __DIR__."/header.php";
     </div>
     <div class="content-img-sustainable"></div>
   </div>
+  <div class="eight-page" id="eight-page">
+    <div class="content-img"></div>
+      <div class="content-wrapper">
+          <div class="headline-text">
+              <?=trans('sound','title')?>
+          </div>
+          <div class="content-box">
+              <?=trans('sound','content')?>
+          </div>
+          <div class="read-more-button">
+            <p>  <?=trans('sound','button')?></p>
+            <img class="pil" src="iconer/pil-hoger.svg">
+          </div>
+      </div>
+      <div class="content-img-performance"></div>
+  </div>
 </div>
