@@ -31,23 +31,23 @@ $Content = [
   [
     'title' => 'Silent performance',
     'content' => 'The numbers speak for themselves: 120kW (160hp) of silent performance surge you from 0 to 100km/h in 3 seconds flat.',
-    'button' => 'Read more',
+    'button' => 'READ MORE',
   ],
 
   'adventure'=>
   [
     'title' => 'Thirst for adventure',
     'content' => 'With its innovative 800-volt technology, and a range of 200km  –  Fast Security 1.0 is always ready when you are. ',
-    'button' => 'Read more',
+    'button' => 'READ MORE',
   ],
 
   'sustainable'=>
   [
     'title' => 'Sustainable',
     'content' =>  'As the sports bike of the future FS 1.0 is our vision of pure e-mobility in the form of an all-electric sports bike for an active and sustainable lifestyle. ',
-    'button' => 'Read more',
+    'button' => 'READ MORE',
   ],
-  
+
   'sound' =>
   [
     'title' => 'Sound of the future',

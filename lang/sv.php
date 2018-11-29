@@ -33,23 +33,23 @@ $Content = [
   [
     'title' => 'Prestanda',
     'content' => 'With the newly developed Saab fusion-3 driveline, FS1.0 will be one of the fastest motorcycles in the world.',
-    'button' => 'Läs mer',
+    'button' => 'LÄS MER',
   ],
 
   'adventure'=>
   [
     'title' => 'Äventyr',
     'content' => 'With a production of only 500, FS1.0 will be one of the most exclusive and rare motorcycles in the world.',
-    'button' => 'Läs mer',
+    'button' => 'LÄS MER',
   ],
 
   'sustainable'=>
   [
     'title' => 'Hållbar',
     'content' => 'Many people still think Saab makes cars, and that is correct. We are on the go for the future. Saab is very much alive and well.',
-    'button' => 'Läs mer',
+    'button' => 'LÄS MER',
   ],
-  
+
   'sound' =>
   [
     'title' => 'Sound of the future',
