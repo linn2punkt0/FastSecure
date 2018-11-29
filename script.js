@@ -76,10 +76,23 @@ readMoreButton.forEach((button) => {
 });
 
 //Move the arrow up on mouseover:
-
 const arrowUp = document.querySelector('.to-top')
 const arrow = document.querySelector('.arrow')
 
 arrowUp.addEventListener('mouseover', () => {
   arrow.classList.add('move');
+});
+
+
+//Move arrow down (newsletter-button):
+const arrowDownBlack = document.querySelector('.newsletter-button')
+const down = document.querySelector('.pil-ner')
+const newsImg = document.querySelector('.newsletter-button img')
+
+arrowDownBlack.addEventListener('mouseover', () => {
+  newsImg.setAttribute("src", "iconer/pil-ner-svart.svg");
+});
+
+arrowDownBlack.addEventListener('mouseout', () => {
+  newsImg.setAttribute("src", "iconer/pil-ner.svg");
 });
