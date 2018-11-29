@@ -915,9 +915,28 @@
   .read-more-button p {
     font-size: 14px;
     display: inline-block;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
     font-weight: 700;
   }
+
+  .read-more-button p:hover {
+    font-size: 14px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+  }
+
+  .pil {
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    margin-left: 7.59px;
+  }
+
+  .pil.active{
+   transform: translateX(16px);
+
+  }
+
   .sixth-page {
     width: 100%;
     display: grid;
