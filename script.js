@@ -54,10 +54,10 @@ window.onscroll = function() {
   }
 };
 
+
+//Move the arrow on mouseover:
   const readMoreButton = document.querySelectorAll('.read-more-button')
   const pil = document.querySelectorAll('.pil')
-  console.log(pil)
-  console.log(readMoreButton)
 
   readMoreButton.forEach((button) => {
     button.addEventListener('mouseover', () => {
@@ -67,10 +67,10 @@ window.onscroll = function() {
     });
   });
 
-  readMoreButton.forEach((button) => {
-    button.addEventListener('mouseout', () => {
-    pil.forEach((p) => {
-        p.classList.remove('active');
-        });
+readMoreButton.forEach((button) => {
+  button.addEventListener('mouseout', () => {
+  pil.forEach((p) => {
+      p.classList.remove('active');
       });
-  });
+    });
+});
