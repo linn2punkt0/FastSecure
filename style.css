@@ -924,7 +924,7 @@
     display: inline-block;
     border-bottom: 1px solid white;
   }
-
+  
   .pil {
     background-repeat: no-repeat;
     width: 10px;
@@ -935,6 +935,18 @@
   .pil.active{
    transform: translateX(16px);
    transition: all 0.1s ease-in-out;
+  }
+
+  .arrow {
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  margin-left: 14px;
+  }
+
+  .arrow.move {
+  transform: translateY(-8px);
+  transition: all 0.1s ease-in-out;
   }
 
   .sixth-page {
@@ -1213,12 +1225,15 @@
     margin-top: 0;
     font-size: 16px;
     font-weight: 700;
-    text-decoration: underline;
-    text-decoration-color: white;
     color: white;
     grid-column: 4/5;
     grid-row: 1/2;
   }
+
+  a:hover {
+    color: white;
+  }
+
   .footermenu-content {
     padding-top: 0;
     display: flex;
