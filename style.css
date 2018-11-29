@@ -360,9 +360,14 @@
     font-weight: bold;
   }
 
-  .newsletter-button:hover {
-    background-color: white;
-  }
+  .pil-ner {
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  margin-left: 16px;
+  align-self: center;
+}
+
 
   .content-img {
     width: 100%;
@@ -870,7 +875,32 @@
     display: flex;
     align-self: center;
     justify-content: center;
+    font-weight: bold;
   }
+
+  .newsletter-button:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+  .pil-ner {
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  margin-left: 16px;
+  align-self: center;
+}
+
+.newsletter-button .pil-ner{
+transition: all 0.1s ease-in-out;
+}
+
+  .newsletter-button:hover .pil-ner {
+  transform: translateY(4px);
+  color: black;
+}
+
   .fifth-page {
     width: 100%;
     display: grid;
