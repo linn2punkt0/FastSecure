@@ -85,7 +85,7 @@ require __DIR__."/header.php";
 
     <div class="fifth-page" id="fifth-page">
       <div class="content-img"></div>
-        <div class="content-wrapper">
+        <div class="content-wrapper" id="silent">
             <div class="headline-text">
                 <?=trans('performance','title')?>
             </div>

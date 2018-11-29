@@ -1,8 +1,8 @@
 <div class="menu">
     <div class="shortcuts">
         <a href="#first-page"><?=trans('home','title')?></a>
-        <a href="#second-page"><?=trans('performance','title')?></a>
-        <a href="#third-page"><?=trans('adventure','title')?></a>
+        <a href="#silent"><?=trans('performance','title')?></a>
+        <a href="#sixth-page"><?=trans('adventure','title')?></a>
         <a href="#seventh-page"><?=trans('sustainable','title')?></a>
         <a href="#footer"><?=trans('companyContact','contact')?></a>
     </div>
