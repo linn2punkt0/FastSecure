@@ -604,7 +604,21 @@
     height: 35px;
     margin-right: 12px;
     margin-left: 12px;
-    background-color: grey;
+  }
+  .fb {
+    background-image: url("iconer/iconmonstr-facebook-1.svg");
+  }
+  .in {
+    background-image: url("iconer/iconmonstr-instagram-11.svg");
+  }
+  .li {
+    background-image: url("iconer/iconmonstr-linkedin-1.svg");
+  }
+  .tw {
+    background-image: url("iconer/iconmonstr-twitter-1.svg");
+  }
+  .yt {
+    background-image: url("iconer/iconmonstr-youtube-6.svg");
   }
 
   .copyright {
