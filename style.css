@@ -301,15 +301,14 @@
   .eight-page {
     width: 100%;
     display: grid;
-    grid-template-rows: 1fr 1fr;
   }
   .eight-page .headline-text {
+    width: 80vw;
     padding-top: 32px;
     margin-left: 16px;
     margin-top: 0;
   }
   .eight-page .content-box {
-    padding-top: 16px;
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 0;
@@ -317,6 +316,10 @@
   }
   .eight-page .content-img-performance {
     grid-row: 1 / 2;
+  }
+  .eight-page .read-more-button {
+    margin-bottom: 0;
+    padding-bottom: 60px;
   }
 
   .headline {
