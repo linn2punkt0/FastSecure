@@ -586,15 +586,24 @@
     width: 164px;
     border-bottom: 1px solid white;
   }
-  .btn-primary {
-    width: 241px;
-    height: 36px;
+
+  .sign-up {
+    height: 40px;
+    padding: 8px;
     margin-top: 40px;
-    margin: auto;
-    background-color: black;
-    border-color: white;
-    border-radius: 0;
-    display: block;
+    margin-bottom: 64px;
+    border: 1px solid white;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .pil-hoger-bottom {
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    margin-left: 16px;
+    align-self: center;
   }
 
   /* footer menu start */
@@ -1317,16 +1326,38 @@ transition: all 0.1s ease-in-out;
     width: 48%;
     border-bottom: 1px solid white;
   }
-  .btn-primary {
-    width: 241px;
-    height: 36px;
-    margin-top: 148px;
-    margin: auto;
-    background-color: black;
-    border-color: white;
-    border-radius: 0;
-    display: block;
+
+  .sign-up {
+    height: 40px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 64px;
+    border: 1px solid white;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-weight: bold;
   }
+  .sign-up:hover {
+    background-color: white;
+    color: black;
+  }
+  .pil-hoger-bottom {
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    margin-left: 16px;
+    align-self: center;
+    justify-content: center;
+  }
+  .sign-up .pil-hoger-bottom {
+    transition: all 0.1s ease-in-out;
+  }
+  .sign-up:hover .pil-hoger-bottom {
+    transform: translateX(8px);
+    color: black;
+  }
+
   /* footer menu start */
   .footermenu {
     width: 80vw;
