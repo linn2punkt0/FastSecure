@@ -292,6 +292,27 @@
     margin-top: 0;
   }
 
+  .eight-page {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .eight-page .headline-text {
+    padding-top: 32px;
+    margin-left: 16px;
+    margin-top: 0;
+  }
+  .eight-page .content-box {
+    padding-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0;
+    grid-row: 2 / 3;
+  }
+  .eight-page .content-img-performance {
+    grid-row: 1 / 2;
+  }
+
   .headline {
     width: 120px;
     padding-top: 96px;
@@ -360,9 +381,14 @@
     font-weight: bold;
   }
 
-  .newsletter-button:hover {
-    background-color: white;
-  }
+  .pil-ner {
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  margin-left: 16px;
+  align-self: center;
+}
+
 
   .content-img {
     width: 100%;
@@ -556,15 +582,24 @@
     width: 164px;
     border-bottom: 1px solid white;
   }
-  .btn-primary {
-    width: 241px;
-    height: 36px;
+  .sign-up {
+    height: 40px;
+    padding: 8px;
     margin-top: 40px;
-    margin: auto;
-    background-color: black;
-    border-color: white;
-    border-radius: 0;
-    display: block;
+    margin-bottom: 64px;
+    border: 1px solid white;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .pil-hoger-bottom {
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    margin-left: 16px;
+    align-self: center;
   }
 
   /* footer menu start */
@@ -583,6 +618,14 @@
     text-decoration-color: white;
     color: white;
   }
+
+  .arrow {
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  margin-left: 14px;
+  }
+  
   .footermenu-content {
     padding-top: 46px;
     display: flex;
@@ -890,7 +933,31 @@
     display: flex;
     align-self: center;
     justify-content: center;
+    font-weight: bold;
   }
+
+  .newsletter-button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .pil-ner {
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  margin-left: 16px;
+  align-self: center;
+}
+
+.newsletter-button .pil-ner{
+transition: all 0.1s ease-in-out;
+}
+
+  .newsletter-button:hover .pil-ner {
+  transform: translateY(4px);
+  color: black;
+}
+
   .fifth-page {
     width: 100%;
     margin-bottom: 96px;
@@ -1012,6 +1079,7 @@
   .seventh-page {
     width: 100%;
     width: 100%;
+    margin-bottom: 96px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     flex-direction: column;
@@ -1033,6 +1101,36 @@
     margin-left: 10%;
   }
   .seventh-page .read-more-button {
+    margin-left: 0;
+  }
+  .eight-page {
+    width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    justify-content: space-between;
+    scroll-snap-align: start;
+  }
+  .eight-page .headline-text {
+    font-size: 48pt;
+    font-weight: 700;
+  }
+  .eight-page .content-img-performance {
+    height: 556pt;
+    background-image: url("images/Desktop/Img_8.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .eight-page .content-wrapper {
+    margin-top: 170px;
+    margin-left: 10%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }
+  .eight-page .read-more-button {
     margin-left: 0;
   }
 
@@ -1231,16 +1329,46 @@
     width: 48%;
     border-bottom: 1px solid white;
   }
-  .btn-primary {
-    width: 241px;
-    height: 36px;
-    margin-top: 148px;
-    margin: auto;
-    background-color: black;
-    border-color: white;
-    border-radius: 0;
-    display: block;
+  .sign-up{
+    height: 40px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 64px;
+    border: 1px solid white;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-weight: bold;
   }
+
+  .sign-up:hover {
+  background-color: white;
+  color: black;
+  }
+
+  .pil-hoger-bottom {
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    margin-left: 16px;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .sign-up .pil-hoger-bottom {
+  transition: all 0.1s ease-in-out;
+  }
+
+  .sign-up:hover .pil-hoger-bottom{
+  transform: translateX(8px);
+  color: black;
+  }
+
+
+
+
+
+
   /* footer menu start */
   .footermenu {
     width: 80vw;
