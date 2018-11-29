@@ -17,6 +17,12 @@ if (isset($_GET['page'])) {
   ?>
 </div>
 
+<div class="pop-up"  >
+  <?php 
+    require __DIR__."/pop-up.php";
+  ?>
+</div>
+
 <div class="index-selector">
   <?php 
     require __DIR__."/main-content.php";

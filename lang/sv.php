@@ -91,6 +91,7 @@ $Content = [
     'legal' => 'LEGAL',
     'contact' => 'CONTACT US'
   ],
+  'thankYou' =>
   [
     'title' => 'Tack',
     'content' => 'Thank you for signing up, we look forward to sharing our progress with you in the furture. The product folder has now been sent your email. ',
