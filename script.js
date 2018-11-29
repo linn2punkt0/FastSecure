@@ -1,3 +1,4 @@
+//Fade in function
 function isElementInViewport(el) {
   let rect = el.getBoundingClientRect();
   return (
@@ -11,8 +12,7 @@ function isElementInViewport(el) {
 
 let items = document.querySelectorAll(".content li");
 
-// code for the isElementInViewport function
-
+// Function for isElementInViewport
 function callbackFunc() {
   for (let i = 0; i < items.length; i++) {
     if (isElementInViewport(items[i])) {
@@ -53,3 +53,24 @@ window.onscroll = function() {
     prevScrollpos = currentScrollPos;
   }
 };
+
+  const readMoreButton = document.querySelectorAll('.read-more-button')
+  const pil = document.querySelectorAll('.pil')
+  console.log(pil)
+  console.log(readMoreButton)
+
+  readMoreButton.forEach((button) => {
+    button.addEventListener('mouseover', () => {
+    pil.forEach((p) => {
+        p.classList.add('active');
+      });
+    });
+  });
+
+  readMoreButton.forEach((button) => {
+    button.addEventListener('mouseout', () => {
+    pil.forEach((p) => {
+        p.classList.remove('active');
+        });
+      });
+  });
