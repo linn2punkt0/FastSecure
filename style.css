@@ -657,6 +657,7 @@
     background-color: black;
     color: white;
     scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
   }
 
   /* Navbar */
@@ -841,7 +842,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 32%;
+    margin-top: 500px;
   }
   .second-page {
     width: 100%;
@@ -892,6 +893,7 @@
   }
   .fifth-page {
     width: 100%;
+    margin-bottom: 96px;
     display: grid;
     /* grid-template-rows: 1fr 1fr; */
     grid-template-columns: 1fr 1fr;
@@ -978,6 +980,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     scroll-snap-align: start;
+    margin-bottom: 96px;
   }
   .sixth-page .content-wrapper {
     padding-top: 144px;
@@ -1187,18 +1190,18 @@
   }
   .form-control {
     padding: 0;
-    background-color: black;
+    background-color: black !important;
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: white !important;
     border: none;
-    opacity: 1;
-    color: rgba(255, 255, 255, 1);
+    opacity: 1 !important;
+    color: rgba(255, 255, 255, 1) !important;
   }
-  /* ::placeholder{
+  ::placeholder{
   background-color: black;
-  color: white;
-  opacity: 1;
-} */
+  color: white !important;
+  opacity: 1 !important;
+}
   ::-webkit-input-placeholder {
     color: white;
   }
