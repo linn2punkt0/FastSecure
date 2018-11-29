@@ -55,7 +55,7 @@ window.onscroll = function() {
 };
 
 
-//Move the arrow on mouseover:
+//Move the pil to the right on mouseover:
   const readMoreButton = document.querySelectorAll('.read-more-button')
   const pil = document.querySelectorAll('.pil')
 
@@ -73,4 +73,13 @@ readMoreButton.forEach((button) => {
       p.classList.remove('active');
       });
     });
+});
+
+//Move the arrow up on mouseover:
+
+const arrowUp = document.querySelector('.to-top')
+const arrow = document.querySelector('.arrow')
+
+arrowUp.addEventListener('mouseover', () => {
+  arrow.classList.add('move');
 });
