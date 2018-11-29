@@ -130,7 +130,6 @@ require __DIR__."/header.php";
     <div class="content-img-sustainable"></div>
   </div>
   <div class="eight-page" id="eight-page">
-    <div class="content-img"></div>
       <div class="content-wrapper">
           <div class="headline-text">
               <?=trans('sound','title')?>
