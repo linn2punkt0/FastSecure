@@ -656,6 +656,7 @@
   body {
     background-color: black;
     color: white;
+    scroll-snap-type: y proximity;
   }
 
   /* Navbar */
@@ -834,6 +835,7 @@
     background-image: url("images/Desktop/Img_1.png");
     background-size: cover;
     background-repeat: no-repeat;
+    scroll-snap-align: start;
   }
   .scroll-down {
     width: 100%;
@@ -849,6 +851,7 @@
     background-image: url("images/Desktop/Img_2.png");
     background-size: cover;
     background-repeat: no-repeat;
+    scroll-snap-align: start;
   }
   .third-page {
     width: 100%;
@@ -856,6 +859,7 @@
     background-image: url("images/Desktop/Img_3.png");
     background-size: cover;
     background-repeat: no-repeat;
+    scroll-snap-align: start;
   }
   .fourth-page {
     width: 100%;
@@ -863,6 +867,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    scroll-snap-align: start;
   }
   .content-wrapper-fs {
     margin-top: 90pt;
@@ -972,6 +977,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    scroll-snap-align: start;
   }
   .sixth-page .content-wrapper {
     padding-top: 144px;
@@ -1007,6 +1013,7 @@
     grid-template-columns: 1fr 1fr;
     flex-direction: column;
     justify-content: space-between;
+    scroll-snap-align: start;
   }
   .seventh-page .headline-text {
     font-size: 48pt;
