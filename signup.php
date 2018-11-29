@@ -54,7 +54,8 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
                     <input type="text" name="lastname" id="text" class="form-control" placeholder="<?=trans('contactForm','lastName')?>">
                 </div><!-- /form-group -->
               </div>
-
-                <button type="submit" class="btn btn-primary"><?=trans('contactForm','button')?></button>
+              <div class ="sign-up">
+              <?=trans('contactForm','button')?><img class="pil-hoger-bottom" src="iconer/pil-hoger-bottom.svg">
+            </div>
             </form>
         </main><!-- /container -->
