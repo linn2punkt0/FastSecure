@@ -501,8 +501,9 @@
     margin-bottom: 0;
   }
   .contact {
-    height: 100vh;
+    margin-bottom: 80px;
     width: 100vw;
+
   }
   .contactinfo {
     margin-left: 10px;
