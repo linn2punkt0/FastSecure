@@ -26,6 +26,7 @@ require __DIR__."/header.php";
             <div class="scroll-down">
                   <?=trans('firstContent','scroll')?>
             </div>
+            <img class="pil-ner-top" src="iconer/pil-ner-top.svg">
         </div>
 
   <!-- //First page end  -->
