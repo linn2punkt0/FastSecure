@@ -93,7 +93,8 @@ require __DIR__."/header.php";
                 <?=trans('performance','content')?>
             </div>
             <div class="read-more-button">
-              <p>  <?=trans('performance','button')?> ></p>
+              <p>  <?=trans('performance','button')?></p>
+              <img class="pil" src="iconer/pil-hoger.svg">
             </div>
         </div>
         <div class="content-img-performance"></div>
@@ -107,7 +108,8 @@ require __DIR__."/header.php";
                 <?=trans('adventure','content')?>
             </div>
             <div class="read-more-button">
-                <p><?=trans('adventure','button')?> ></p>
+                <p><?=trans('adventure','button')?> </p>
+                <img class="pil" src="iconer/pil-hoger.svg">
             </div>
         </div>
         <div class="content-img-adventure"></div>
@@ -121,7 +123,8 @@ require __DIR__."/header.php";
         <?=trans('sustainable','content')?>
       </div>
       <div class="read-more-button">
-        <p><?=trans('sustainable','button')?> ></p>
+        <p><?=trans('sustainable','button')?></p>
+        <img class="pil" src="iconer/pil-hoger.svg">
       </div>
     </div>
     <div class="content-img-sustainable"></div>
