@@ -19,7 +19,7 @@
 
     <div class="footermenu">
 
-        <a href="#top" class="to-top"><p> <?=trans('companyContact','back')?> ⇧</p></a>
+        <a href="#top" class="to-top"><p> <?=trans('companyContact','back')?><img class="arrow" src="iconer/pil-upp.svg"></p></a>
       <div class="footermenu-content"
       <a href=""><?=trans('home','title')?></a>
       <a href=""><?=trans('performance','title')?></a>
