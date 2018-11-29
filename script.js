@@ -109,3 +109,16 @@ arrowRightBlack.addEventListener('mouseover', () => {
 arrowRightBlack.addEventListener('mouseout', () => {
   arrowSvg.setAttribute("src", "iconer/pil-hoger-bottom.svg");
 });
+
+
+const signup = document.querySelector('.sign-up')
+const popup = document.querySelector('.pop-up')
+
+// pop-up botton
+function myFunction() {
+    popup.classList.add('.display');
+}
+
+signup.addEventListener("click", myFunction);
+
+console.log(myFunction);
