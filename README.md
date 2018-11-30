@@ -12,13 +12,13 @@ Open up this repository in your localhost.
 ### Tested in:
 
 #### Browsers:
-Brave
-Firefox
-Chrome
-Safari
-Opera
+- Brave
+- Firefox
+- Chrome
+- Safari
+- Opera
 
 #### Operating systems:
-Mac
-Windows
+- Mac
+- Windows
 
