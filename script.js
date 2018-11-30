@@ -29,14 +29,31 @@ window.addEventListener("scroll", callbackFunc);
 let menuIsOpen = false;
 
 // Burger-animation
-$(document).ready(function() {
-  $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function() {
-    $(this).toggleClass("open");
-    console.log("click");
-    $(".menu-selector").toggleClass("display");
-    menuIsOpen = !menuIsOpen;
-  });
+const navIcon = document.querySelector("#nav-icon1");
+const menuSelector = document.querySelector(".menu-selector");
+navIcon.addEventListener("click", () => {
+  navIcon.classList.toggle("open");
+  menuSelector.classList.toggle("display");
+  menuIsOpen = !menuIsOpen;
 });
+
+// Close menu when clicking on link
+const shortcuts = document.querySelector(".shortcuts");
+const menuLinks = shortcuts.querySelectorAll("a");
+function closeMenu() {
+  navIcon.classList.toggle("open");
+  menuSelector.classList.remove("display");
+  menuIsOpen = !menuIsOpen;
+}
+
+menuLinks.forEach(link => {
+  link.addEventListener("click", () => closeMenu());
+});
+// menuLinks.addEventListeners("click", () => closeMenu());
+// function closeMenu() {
+//   menuSelector.classList.remove("display");
+//   menuIsOpen = !menuIsOpen;
+// }
 
 // Navbar visible when scrolling up
 var prevScrollpos = window.pageYOffset;
