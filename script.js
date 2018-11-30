@@ -58,17 +58,17 @@ window.onscroll = function() {
 const popUpWindow = document.querySelector(".pop-up-window");
 
 const submitForm = document.querySelector(".sign-up");
-submitForm.addEventListener("click", openPopUp());
+submitForm.addEventListener("click", () => openPopUp());
 
 const closeButton = document.querySelector(".close-button");
-closeButton.addEventListener("click", closePopUp());
+closeButton.addEventListener("click", () => closePopUp());
 
 function openPopUp() {
-  popUpWindow.classList.add(".display");
+  popUpWindow.classList.add("display");
 }
 
 function closePopUp() {
-  popUpWindow.classList.remove(".display");
+  popUpWindow.classList.remove("display");
 }
 
 // Move the pil to the right on mouseover:
