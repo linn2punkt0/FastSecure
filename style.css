@@ -959,9 +959,10 @@
   }
 
   .pop-up-window {
-    width: 100vw;
+    width: 800px;
+    left: 50%;
+    margin-left:-400px;
     height: 0;
-    top: 56px;
     background-color: black;
     position: fixed;
     z-index: 500;
@@ -980,9 +981,10 @@
   }
 
   .pop-up-window.display {
-    height: 42vh;
-    width: 92vw;
-    margin-left: 4vw;
+    height: 278px;
+    width: 800px;
+    left: 50%;
+    margin-left:-400px;
     margin-top: 29vh;
     pointer-events: all;
     opacity: 1;
@@ -993,25 +995,25 @@
     /* justify-content: center; */
   }
   .pop-up-window h4 {
-    font-size: 32px;
-    margin-top: 5vh;
-    margin-bottom: 2vh;
+    font-size: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     font-weight: 700;
   }
   .pop-up-window p {
-    font-size: 16px;
-    margin-bottom: 5vh;
-    width: 82vw;
+    font-size: 18px;
+    margin-bottom: 40px;
+    width: 768px;
   }
   .pop-up-window button {
     text-decoration: none;
     background-color: black;
     color: white;
     border: solid 1px white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
-    width: 44vw;
-    height: 6vh;
+    width: 168px;
+    height: 48px;
   }
 
   /* Desktop */
