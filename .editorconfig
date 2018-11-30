@@ -1,0 +1,7 @@
+[*.php]
+indent_style = tab
+indent_size = 4
+
+[*.javascript]
+indent_style = tab
+indent_size = 4
