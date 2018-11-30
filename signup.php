@@ -15,7 +15,7 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
 };
 ?>
 
-      <div class="infoimg"
+      <div class="infoimg">
         <img src="">
       </div>
 
@@ -29,7 +29,7 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
 
 
         <main  id="signup">
-            <form class="col-lg-6 mt-3" action="signup.php" method="post">
+            <form class="col-lg-6 mt-3" action="index.php" method="post">
 
               <?php foreach ($errors as $error): ?>
                   <div class="alert alert-danger">
