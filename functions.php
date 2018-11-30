@@ -2,7 +2,7 @@
 declare(strict_types=1);
 session_start();
 
-function trans($key1, $key2) {
+function trans(string $key1, string $key2): string {
   if(isset($_GET['lang'])){
     $lang = $_GET['lang'];
     $_SESSION['lang'] = $_GET['lang'];
