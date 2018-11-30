@@ -181,6 +181,30 @@
     border: solid 1px #1d1d1d;
     font-weight: 700;
   }
+  /* Pop-Up-Window with animation*/
+  .pop-up-window {
+    width: 50vw;
+    height: 0;
+    top: 56px;
+    background-color: black;
+    position: fixed;
+    z-index: 500;
+    pointer-events: none;
+    transition: 0.5s;
+    opacity: 0;
+    border: solid, 1px, white;
+    color: white;
+  }
+
+  .pop-up-window > button {
+    border: solid 1px white;
+  }
+
+  .pop-up-window.display {
+    height: 50vh;
+    pointer-events: all;
+    opacity: 1;
+  }
 
   /* Main content */
   /* Mobile: */
@@ -206,7 +230,7 @@
     font-weight: bold;
   }
 
-  .pil-ner-top{
+  .pil-ner-top {
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
@@ -520,7 +544,6 @@
   .contact {
     margin-bottom: 80px;
     width: 100vw;
-
   }
   .contactinfo {
     margin-left: 10px;
@@ -576,11 +599,11 @@
     opacity: 1;
     color: rgba(255, 255, 255, 1) !important;
   }
-  ::placeholder{
-  background-color: black !important;
-  color: white !important;
-  opacity: 1;
-}
+  ::placeholder {
+    background-color: black !important;
+    color: white !important;
+    opacity: 1;
+  }
   ::-webkit-input-placeholder {
     color: white;
   }
@@ -899,7 +922,7 @@
     border: solid 1px #1d1d1d;
     font-weight: 700;
   }
-  .lang button:hover{
+  .lang button:hover {
     background-color: white;
     color: black;
   }
@@ -924,7 +947,7 @@
     font-weight: bold;
   }
 
-  .pil-ner-top{
+  .pil-ner-top {
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;

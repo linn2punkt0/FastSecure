@@ -54,71 +54,85 @@ window.onscroll = function() {
   }
 };
 
+// Show "Thank you" when emailadress is submitted
+const popUpWindow = document.querySelector(".pop-up-window");
 
-//Move the pil to the right on mouseover:
-  const readMoreButton = document.querySelectorAll('.read-more-button')
-  const pil = document.querySelectorAll('.pil')
+const submitForm = document.querySelector(".sign-up");
+submitForm.addEventListener("click", openPopUp());
 
-  readMoreButton.forEach((button) => {
-    button.addEventListener('mouseover', () => {
-    pil.forEach((p) => {
-        p.classList.add('active');
-      });
+const closeButton = document.querySelector(".close-button");
+closeButton.addEventListener("click", closePopUp());
+
+function openPopUp() {
+  popUpWindow.classList.add(".display");
+}
+
+function closePopUp() {
+  popUpWindow.classList.remove(".display");
+}
+
+// Move the pil to the right on mouseover:
+const readMoreButton = document.querySelectorAll(".read-more-button");
+const pil = document.querySelectorAll(".pil");
+
+readMoreButton.forEach(button => {
+  button.addEventListener("mouseover", () => {
+    pil.forEach(p => {
+      p.classList.add("active");
     });
   });
+});
 
-readMoreButton.forEach((button) => {
-  button.addEventListener('mouseout', () => {
-  pil.forEach((p) => {
-      p.classList.remove('active');
-      });
+readMoreButton.forEach(button => {
+  button.addEventListener("mouseout", () => {
+    pil.forEach(p => {
+      p.classList.remove("active");
     });
+  });
 });
 
 //Move the arrow up on mouseover:
-const arrowUp = document.querySelector('.to-top')
-const arrow = document.querySelector('.arrow')
+const arrowUp = document.querySelector(".to-top");
+const arrow = document.querySelector(".arrow");
 
-arrowUp.addEventListener('mouseover', () => {
-  arrow.classList.add('move');
+arrowUp.addEventListener("mouseover", () => {
+  arrow.classList.add("move");
 });
 
-
 //Move arrow down (newsletter-button) + change arrow color to black:
-const arrowDownBlack = document.querySelector('.newsletter-button')
-const down = document.querySelector('.pil-ner')
-const newsImg = document.querySelector('.newsletter-button img')
+const arrowDownBlack = document.querySelector(".newsletter-button");
+const down = document.querySelector(".pil-ner");
+const newsImg = document.querySelector(".newsletter-button img");
 
-arrowDownBlack.addEventListener('mouseover', () => {
+arrowDownBlack.addEventListener("mouseover", () => {
   newsImg.setAttribute("src", "iconer/pil-ner-svart.svg");
 });
 
-arrowDownBlack.addEventListener('mouseout', () => {
+arrowDownBlack.addEventListener("mouseout", () => {
   newsImg.setAttribute("src", "iconer/pil-ner.svg");
 });
 
 //Move arrow right(sign-up) + change arrow color to black:
-const arrowRightBlack = document.querySelector('.sign-up')
-const right = document.querySelector('.pil-hoger-bottom')
-const arrowSvg = document.querySelector('.sign-up img.pil-hoger-bottom');
+const arrowRightBlack = document.querySelector(".sign-up");
+const right = document.querySelector(".pil-hoger-bottom");
+const arrowSvg = document.querySelector(".sign-up img.pil-hoger-bottom");
 
-arrowRightBlack.addEventListener('mouseover', () => {
+arrowRightBlack.addEventListener("mouseover", () => {
   arrowSvg.setAttribute("src", "iconer/pil-hoger-bottom-svart.svg");
 });
 
-arrowRightBlack.addEventListener('mouseout', () => {
+arrowRightBlack.addEventListener("mouseout", () => {
   arrowSvg.setAttribute("src", "iconer/pil-hoger-bottom.svg");
 });
 
-
-const signup = document.querySelector('.sign-up')
-const popup = document.querySelector('.pop-up')
+// const signUp = document.querySelector(".sign-up");
+// const popUp = document.querySelector(".pop-up");
 
 // pop-up botton
-function myFunction() {
-    popup.classList.add('.display');
-}
+// function myFunction() {
+//   popUp.classList.add(".display");
+// }
 
-signup.addEventListener("click", myFunction);
+// signUp.addEventListener("click", myFunction);
 
-console.log(myFunction);
+// console.log(myFunction);

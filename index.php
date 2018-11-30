@@ -17,7 +17,7 @@ if (isset($_GET['page'])) {
   ?>
 </div>
 
-<div class="pop-up"  >
+<div class="pop-up-window display"  >
   <?php 
     require __DIR__."/pop-up.php";
   ?>
