@@ -4,6 +4,7 @@
         <a href="#silent"><?=trans('performance','title')?></a>
         <a href="#sixth-page"><?=trans('adventure','title')?></a>
         <a href="#seventh-page"><?=trans('sustainable','title')?></a>
+        <a href="#eight-page"><?=trans('sound','title')?></a>
         <a href="#footer"><?=trans('companyContact','contact')?></a>
     </div>
     <form class="lang" action="index.php" method="get">
