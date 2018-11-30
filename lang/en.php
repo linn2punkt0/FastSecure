@@ -11,7 +11,6 @@ $Content = [
   'headerContent' =>
   [
     'title' => 'Be special',
-    // 'scroll' => 'Scroll Down'
   ],
 
   'secondContent' =>
@@ -89,6 +88,7 @@ $Content = [
     'legal' => 'LEGAL',
     'contact' => 'CONTACT US'
   ],
+  
   'thankYou' =>
   [
     'title' => 'Thank you',

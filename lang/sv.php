@@ -1,7 +1,4 @@
 <?php
-
-// Fix swedish translation.
-
 $Content = [
 
   'firstContent' =>
@@ -13,7 +10,6 @@ $Content = [
   'headerContent' =>
   [
     'title' => 'Var speciell',
-    // 'scroll' => 'Scrolla ner'
   ],
 
   'secondContent' =>
@@ -92,6 +88,7 @@ $Content = [
     'legal' => 'LEGAL',
     'contact' => 'CONTACT US'
   ],
+  
   'thankYou' =>
   [
     'title' => 'Tack',
