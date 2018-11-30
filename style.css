@@ -1056,7 +1056,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    top: 8.5%;
+    top: 86vh;
     font-weight: bold;
   }
 
@@ -1069,7 +1069,7 @@
     align-self: center;
     margin-top: 25px;
     position: absolute;
-    top: 8.5%;
+    top: 86vh;
   }
 
   .second-page {
