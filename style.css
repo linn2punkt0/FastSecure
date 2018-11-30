@@ -236,6 +236,7 @@
     font-weight: 700;
     width: 44vw;
     height: 6vh;
+    margin-left: 8px;
   }
 
   /* Main content */
@@ -307,6 +308,7 @@
   .fifth-page .headline-text {
     padding-top: 32px;
     margin-left: 16px;
+    width: 80vw;
     margin-top: 0;
   }
   .fifth-page .content-box {
@@ -659,15 +661,19 @@
   }
 
   .sign-up {
+    width: 338px;
     height: 40px;
-    padding: 8px;
+    padding: 10px;
     margin-top: 40px;
     margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid white;
     display: flex;
     align-self: center;
     justify-content: center;
     font-weight: bold;
+    font-size: 14px;
   }
   .pil-hoger-bottom {
     background-repeat: no-repeat;
