@@ -19,14 +19,14 @@
 
     <div class="footermenu" id="footer">
 
-        <a href="#top" class="to-top"><p> <?=trans('companyContact','back')?><img class="arrow" src="iconer/pil-upp.svg"></p></a>
+        <a href="#first-page" class="to-top"><p> <?=trans('companyContact','back')?><img class="arrow" src="iconer/pil-upp.svg"></p></a>
       <div class="footermenu-content">
       <a href="#first-page"><?=trans('home','title')?></a>
       <a href="#silent"><?=trans('performance','title')?></a>
       <a href="#sixth-page"><?=trans('adventure','title')?></a>
       <a href="#seventh-page"><?=trans('sustainable','title')?></a>
       <a href="#eight-page"><?=trans('sound','title')?></a>
-      <a href=""><?=trans('companyContact','contact')?></a>
+      <a href="#contact"><?=trans('companyContact','contact')?></a>
       </div>
 
         <div class="socialmedia">

@@ -19,7 +19,7 @@ if(isset($_POST['email'], $_POST['firstname'], $_POST['lastname'])) {
         <img src="">
       </div>
 
-      <div class="infotext">
+      <div class="infotext" id="infotext">
         <h1><?=trans('newsletter','title')?></h1>
 
         <p><?=trans('newsletter','content')?></p>

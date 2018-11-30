@@ -79,7 +79,7 @@ require __DIR__."/header.php";
             </div>
             <!-- implement 'scroll down' button below-->
             <div class="newsletter-button">
-                <?=trans('FS1.0','button')?>  <img class="pil-ner" src="iconer/pil-ner.svg">
+              <a class="scrolldowna" href="#infotext">  <?=trans('FS1.0','button')?></a>  <img class="pil-ner" src="iconer/pil-ner.svg">
             </div>
         </div>
 <!-- //Fourth page start  -->
